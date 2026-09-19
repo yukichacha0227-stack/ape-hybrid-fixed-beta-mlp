@@ -1,0 +1,9 @@
+surface,model,n,r2,rmse_meV,mae_meV,mbe_truth_minus_prediction_meV
+HSR,fixed_surface_beta,1822,0.5458,15.9204,11.5499,6.7108
+HSR,fixed_beta_plus_residual_mlp_recursive_raw,1822,0.6365,14.2438,10.3222,2.7854
+HSR,fixed_beta_plus_residual_mlp_recursive_calibrated,1822,0.6567,13.8417,10.6759,-1.0063
+HSR,hist_gradient_boosting_calibrated,1822,0.6199,14.5657,11.1070,-1.0822
+TSR,fixed_surface_beta,1822,0.6494,17.8938,13.4278,8.3459
+TSR,fixed_beta_plus_residual_mlp_recursive_raw,1822,0.7563,14.9186,10.5333,3.6489
+TSR,fixed_beta_plus_residual_mlp_recursive_calibrated,1822,0.7795,14.1903,10.3116,-0.4819
+TSR,hist_gradient_boosting_calibrated,1822,0.7526,15.0294,10.9817,0.3763

@@ -1,0 +1,22 @@
+seed: 42
+train_fraction: 0.70
+validation_fraction: 0.15
+calibration_fraction_of_validation: 0.50
+purge_hours: 6
+minimum_ape_samples_per_hour: 3
+ridge_alpha: 1.0
+oof_splits: 5
+residual_lags_hours: [1, 2, 3, 6]
+hidden_dim: 128
+bottleneck_dim: 64
+dropout: 0.05
+batch_size: 512
+maximum_epochs: 300
+early_stopping_patience: 100
+learning_rate: 0.0002
+weight_decay: 0.0001
+affine_slope_bounds: [0.0, 1.5]
+affine_correction_clip_robust_sigma: 3.0
+surfaces:
+  HSR: 0.0
+  TSR: 32.0

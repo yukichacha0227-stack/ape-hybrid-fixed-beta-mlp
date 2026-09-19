@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite this repository."
+authors:
+  - family-names: Kasai
+    given-names: Yuki
+title: "Fixed-beta residual hybrid for solar-spectrum APE prediction"
+version: 1.0.0
+date-released: 2026-09-19
+url: "https://github.com/yukichacha0227-stack/ape-hybrid-fixed-beta-mlp"
+license: MIT

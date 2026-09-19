@@ -1,0 +1,7 @@
+surface,metric,baseline_F,F_plus_TO3,change_TO3_minus_F
+HSR,r2,0.6425,0.6567,0.0142
+HSR,rmse_meV,14.1247,13.8417,-0.2830
+HSR,mae_meV,11.0429,10.6759,-0.3670
+TSR,r2,0.7690,0.7795,0.0104
+TSR,rmse_meV,14.5223,14.1903,-0.3320
+TSR,mae_meV,10.5996,10.3116,-0.2880
