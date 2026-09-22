@@ -27,6 +27,26 @@ $$
 - **Residual MLP:** learns nonlinear structure that remains after the linear branch.
 - **Affine calibration:** estimates residual scale and offset from the later half of validation only. The independent test set is never used for training, model selection, or calibration.
 
+## Feature design
+
+The five primary atmospheric inputs describe the light path and factors that can change the shape of the solar spectrum:
+
+| Input | Role in the model |
+|---|---|
+| Air mass (`AM`) | Proxy for the atmospheric path length of incoming sunlight. |
+| Aerosol optical depth at 550 nm (`AOD550`) | Amount of aerosol extinction at a reference wavelength. |
+| Total precipitable water (`TQV`; `omega` in the historical code) | Column-integrated water-vapor amount. |
+| Ångström exponent (`TOTANGSTR`) | Describes how aerosol optical depth varies with wavelength; complements AOD550. |
+| Total-column ozone (`TO3`) | Ozone amount in the atmospheric column. |
+
+![Conceptual diagram of the five atmospheric inputs: AM, AOD550, TQV, TO3, and Angstrom exponent](figures/atmospheric_feature_design.png)
+
+*Conceptual feature diagram. The measured spectrum provides the APE target during training, not an input to the predictor.*
+
+The fixed-beta branch uses these variables with an HSR/TSR surface indicator and TSR-by-atmosphere interactions. The residual MLP also receives the predicted value from the beta branch, surface tilt, hour-of-day and day-of-year cycles, selected atmospheric interactions, a transmittance proxy, and 1/2/3/6-hour residual lags. At validation and test time, lagged residuals are previous **predictions**, not measured target residuals.
+
+Measured spectra are used to construct the APE **target**; they are not supplied as model inputs at prediction time. The atmospheric schematic is conceptual and does not imply that each variable's fitted coefficient is a causal physical effect. See [methodology](docs/methodology.md) for the exact feature construction.
+
 ## Independent-test results
 
 The evaluation used 1,822 hourly timestamps per surface in the final chronological test period.
@@ -40,7 +60,12 @@ The evaluation used 1,822 hourly timestamps per surface in the final chronologic
 | TSR | Fixed beta + residual MLP | 0.7563 | 14.9186 | 10.5333 |
 | TSR | Hybrid + affine calibration | **0.7795** | **14.1903** | **10.3116** |
 
+![Measured versus predicted APE for HSR and TSR on the independent test set](figures/independent_test_hsr_tsr_scatter.png)
+
+*Independent-test predictions from the calibrated hybrid. The dashed line is perfect agreement; HSR R2 is rounded to 0.657 in the figure (0.6567 in the table).*
+
 The residual learner provides most of the improvement. Affine calibration improves R2 and RMSE on both surfaces, but it does not improve every metric: HSR MAE is lower before calibration.
+The high-APE tail remains underpredicted on both surfaces.
 
 ## Controlled TO3 ablation
 
