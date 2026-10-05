@@ -16,11 +16,18 @@ flowchart LR
     B --> A[Final APE estimate]
     C --> A
 ```
-For surface $s\in\{\mathrm{HSR},\mathrm{TSR}\}$,
+For surface $s\in\{\mathrm{HSR},\mathrm{TSR}\}$
 
 $$
-\hat y = \hat y_{\beta} + \operatorname{clip}(a_s\hat r_{\mathrm{MLP}}+b_s).
+\hat{y}
+=
+\hat{y}_{\beta}
++
+\operatorname{clip}\left(
+a_s\hat{r}_{\mathrm{MLP}}+b_s
+\right)
 $$
+.
 
 - **Fixed beta:** a transparent, time-invariant linear baseline estimated with Ridge regression. The coefficients are associations, not universal physical constants.
 - **Residual MLP:** learns nonlinear structure that remains after the linear branch.
