@@ -15,9 +15,8 @@ flowchart LR
     M --> C[Surface-wise affine calibration]
     B --> A[Final APE estimate]
     C --> A
-```
 
-For surface \(s\in\{\mathrm{HSR},\mathrm{TSR}\}\),
+For surface $s\in\{\mathrm{HSR},\mathrm{TSR}\}$,
 
 $$
 \hat y = \hat y_{\beta} + \operatorname{clip}(a_s\hat r_{\mathrm{MLP}}+b_s).
