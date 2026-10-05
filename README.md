@@ -16,7 +16,7 @@ flowchart LR
     B --> A[Final APE estimate]
     C --> A
 ```
-For surface $s\in\{\mathrm{HSR},\mathrm{TSR}\}$
+For surface $s\in\{\mathrm{HSR},\mathrm{TSR}\}$,
 
 $$
 \hat{y}
