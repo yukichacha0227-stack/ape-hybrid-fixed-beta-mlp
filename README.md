@@ -112,7 +112,7 @@ Only load trusted pickle files.
 - High-APE cases remain systematically underpredicted.
 - Transfer to unseen regions without local spectral labels is a research hypothesis, not a demonstrated result.
 
-See `[docs/methodology.md](docs/methodology.md)`, `docs/evaluation_protocol.md`, `docs/results_and_discussion.md`, and `docs/limitations.md` for details.
+See `docs/methodology.md`, `docs/evaluation_protocol.md`, `docs/results_and_discussion.md`, and `docs/limitations.md` for details.
 
 ## 日本語要約
 
