@@ -2,7 +2,7 @@
 
 An interpretable hybrid model for predicting average photon energy (APE) from atmospheric variables. The model combines a surface-conditioned fixed-coefficient Ridge branch, a residual multilayer perceptron (MLP), and validation-only affine calibration.
 
-This repository is the focused, reproducible companion to the model presented at the 2026 Autumn Meeting of the Japan Society of Applied Physics. It reports what was demonstrated on the Tsukuba data, while keeping nationwide transfer as a future validation target.
+This repository is the focused, reproducible companion to the model presented at [the 2026 Autumn Meeting of the Japan Society of Applied Physics](https://pub.confit.atlas.jp/ja/event/jsap2026a/presentation/9a-F211-6). It reports what was demonstrated on the Tsukuba data, while keeping nationwide transfer as a future validation target.
 
 ## Model idea
 
