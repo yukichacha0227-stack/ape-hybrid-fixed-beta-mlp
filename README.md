@@ -18,7 +18,8 @@ flowchart LR
 ```
 For surface $s\in\{\mathrm{HSR},\mathrm{TSR}\}$,
 
-**Proposed model: linear model (β) + residual MLP (multilayer perceptron) + affine calibration**\
+**Proposed model: linear model (β) + residual MLP (multilayer perceptron) + affine calibration**
+
 $$
 \hat{y} = \hat{y}_{\beta} + \operatorname{clip}\left(a_s\hat{r}_{\mathrm{MLP}}+b_s\right).
 $$
