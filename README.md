@@ -15,7 +15,7 @@ flowchart LR
     M --> C[Surface-wise affine calibration]
     B --> A[Final APE estimate]
     C --> A
-
+```
 For surface $s\in\{\mathrm{HSR},\mathrm{TSR}\}$,
 
 $$
