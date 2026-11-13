@@ -1,0 +1,4 @@
+{
+  "module": "ResidualMLP(\n  (network): Sequential(\n    (0): Linear(in_features=35, out_features=128, bias=True)\n    (1): LayerNorm((128,), eps=1e-05, elementwise_affine=True, bias=True)\n    (2): GELU(approximate='none')\n    (3): Dropout(p=0.05, inplace=False)\n    (4): Linear(in_features=128, out_features=128, bias=True)\n    (5): LayerNorm((128,), eps=1e-05, elementwise_affine=True, bias=True)\n    (6): GELU(approximate='none')\n    (7): Dropout(p=0.05, inplace=False)\n    (8): Linear(in_features=128, out_features=64, bias=True)\n    (9): GELU(approximate='none')\n    (10): Linear(in_features=64, out_features=1, bias=True)\n  )\n)",
+  "parameters": 29953
+}

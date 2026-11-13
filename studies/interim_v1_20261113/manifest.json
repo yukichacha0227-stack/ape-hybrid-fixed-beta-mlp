@@ -1,0 +1,1278 @@
+{
+  "release": "interim_v1_20261113",
+  "branch": "presentation/interim-v1-20261113",
+  "source_presentation": "河西_中間発表資料_v1.pptx",
+  "created_jst": "2026-11-13",
+  "beta_policy": "Archived presentation uses surface-conditioned beta; new analyses require within-site shared beta.",
+  "raw_observations_included": false,
+  "refitting": false,
+  "verification": {
+    "saved_metrics_independently_recomputed": 96,
+    "radar_values": 40,
+    "checkpoint_strict_loads": 22,
+    "beta_algebra_checks": 8,
+    "existing_tests_passed": 5
+  },
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 155,
+      "sha256": "5336858d5c97858a39687fb605e96c1d0e169b73430a3d1b7071721c81fd72a0"
+    },
+    {
+      "path": ".github/workflows/interim-release.yml",
+      "bytes": 598,
+      "sha256": "245cafac5d3b2a6ee7da7e0dcc30f9add9a12de69d82b5fb542c297e81fdf8be"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 319,
+      "sha256": "be46449a64687a0d05ab021c41061b091f70e52a9fd82ba91b3f3a4c3e09ac56"
+    },
+    {
+      "path": "docs/historical/README_tsukuba_five_feature_main.md",
+      "bytes": 7038,
+      "sha256": "cd03058a6097cd8c90c938f9a1bcefb801e8caa06e91e17a25272eec4b44282c"
+    },
+    {
+      "path": "README.md",
+      "bytes": 12964,
+      "sha256": "c8a5a423c4961307c260373d34e7505102e4620940a1d9ff0a4e6da561b0ebbd"
+    },
+    {
+      "path": "studies/interim_v1_20261113/beta_effective_coefficients.csv",
+      "bytes": 2435,
+      "sha256": "6a991ad8091153eb2695628f94abe61c7a513b423f6a4bee499fb7c2f4f4577a"
+    },
+    {
+      "path": "studies/interim_v1_20261113/build_facts.json",
+      "bytes": 314,
+      "sha256": "6a1d3acb6e6db3c81e497f6aa1c991488e3a3df8f56500db6dc91d734b535a91"
+    },
+    {
+      "path": "studies/interim_v1_20261113/checkpoint_audit.json",
+      "bytes": 6994,
+      "sha256": "ff1d181a0bf64dcfcf5e1d371f57d3a187c303bc9d189d7195759c4d22602c06"
+    },
+    {
+      "path": "studies/interim_v1_20261113/cohorts.csv",
+      "bytes": 687,
+      "sha256": "5566cfddb8106496d6f41c2ba98d98a5b5a663c080b1da8269d209596e419f71"
+    },
+    {
+      "path": "studies/interim_v1_20261113/diagnostics/feature_permutation_importance_all_contexts.csv",
+      "bytes": 137102,
+      "sha256": "d4b7f1cedcc25a2a334b75996c68d061b590b28134d77d2aee8f3382a548526c"
+    },
+    {
+      "path": "studies/interim_v1_20261113/diagnostics/paired_week_block_bootstrap.csv",
+      "bytes": 64024,
+      "sha256": "95dfee4a3f1d63c1c8ef49901dc85ce4bde5d59dac130d164d0d9bef03e66d01"
+    },
+    {
+      "path": "studies/interim_v1_20261113/diagnostics/test_metrics_by_APE_band.csv",
+      "bytes": 126246,
+      "sha256": "f4921fc8e2717388652ef740b2075770789545264e885294c9aa4bb175e12a18"
+    },
+    {
+      "path": "studies/interim_v1_20261113/figures/public_feature_sensitivity_original.png",
+      "bytes": 172485,
+      "sha256": "6842666eb31d532182075a38c5317c0b3a5d0491f5f6cbc64dd124e148577030"
+    },
+    {
+      "path": "studies/interim_v1_20261113/figures/slide12_native_mape_radar.png",
+      "bytes": 590375,
+      "sha256": "bb3bfb0001f453168e97b89c11fc374b184a1d6a36bdb96a9d33859ca9234e85"
+    },
+    {
+      "path": "studies/interim_v1_20261113/figures/slide14_15_common_hour_scatter.png",
+      "bytes": 860631,
+      "sha256": "738a70fd4360285811ead89aa9dc869be4ff813ceade1ceb87e63a02f474c280"
+    },
+    {
+      "path": "studies/interim_v1_20261113/figures/slide21_public_feature_sensitivity.png",
+      "bytes": 237083,
+      "sha256": "bdeb7446cfedc92b6cd5a7db6dc33362c777c3657b97f3e29b16a1ffb3e66c8e"
+    },
+    {
+      "path": "studies/interim_v1_20261113/figures/slide22_annotated_naganuma_hsr.png",
+      "bytes": 113572,
+      "sha256": "41f4a3683a8af41c377d31f51140ac13b179fb219c4b18b467402aa27a1e8c04"
+    },
+    {
+      "path": "studies/interim_v1_20261113/figures/source_scatter/つくば_HSR_NEDO_reference_β_MLP_校正後_散布図.pdf",
+      "bytes": 140714,
+      "sha256": "13c10e3a3cfd5d82adb951cbfbc03cf1a913fbf39c1dfe4a970e9372849a784e"
+    },
+    {
+      "path": "studies/interim_v1_20261113/figures/source_scatter/つくば_HSR_NEDO_reference_β_MLP_校正後_散布図.png",
+      "bytes": 296470,
+      "sha256": "30b468dc42fd79376aefd80766f6232f95d5c1314d6e2d58a1a73f1ac57ce27d"
+    },
+    {
+      "path": "studies/interim_v1_20261113/figures/source_scatter/つくば_HSR_NEDO_reference_β_MLP_校正後_散布図.svg",
+      "bytes": 245641,
+      "sha256": "d0144a94358e42c6dbb34563c6253a0b44b8ad3b3a45b6a8836f9f16b6033089"
+    },
+    {
+      "path": "studies/interim_v1_20261113/figures/source_scatter/つくば_TSR_NEDO_reference_β_MLP_校正後_散布図.pdf",
+      "bytes": 126356,
+      "sha256": "ea35935c4d68954b18cad4c363df588f361751a0240bd009e681ea5170634a6e"
+    },
+    {
+      "path": "studies/interim_v1_20261113/figures/source_scatter/つくば_TSR_NEDO_reference_β_MLP_校正後_散布図.png",
+      "bytes": 275053,
+      "sha256": "fff119a68467b8b6a678913997ce37780dd48f812c1bf20d413153f90c5e9a82"
+    },
+    {
+      "path": "studies/interim_v1_20261113/figures/source_scatter/つくば_TSR_NEDO_reference_β_MLP_校正後_散布図.svg",
+      "bytes": 222333,
+      "sha256": "6b362e4c5a3e281b80a721e52353013028a61a64c6a297ebb4cd1d98af2ded63"
+    },
+    {
+      "path": "studies/interim_v1_20261113/figures/source_scatter/つくば長沼_NEDO_reference_β_MLP_校正後_正解予測散布図.pdf",
+      "bytes": 370955,
+      "sha256": "77b4fcfac1a9dbbfc7b66dbb1df445132bbad1111ca6a2e6c0b8563e5c465570"
+    },
+    {
+      "path": "studies/interim_v1_20261113/figures/source_scatter/つくば長沼_NEDO_reference_β_MLP_校正後_正解予測散布図.png",
+      "bytes": 961522,
+      "sha256": "b3f838bc90106434f020db0f027b0a1b6dab093416a6efce559147ce908cf3ca"
+    },
+    {
+      "path": "studies/interim_v1_20261113/figures/source_scatter/つくば長沼_NEDO_reference_β_MLP_校正後_正解予測散布図.svg",
+      "bytes": 721578,
+      "sha256": "d631513a19afcf8cc77db9a7106992be413fba1b578f3eac44e36684728a44d1"
+    },
+    {
+      "path": "studies/interim_v1_20261113/figures/source_scatter/長沼_HSR_NEDO_reference_β_MLP_校正後_散布図.pdf",
+      "bytes": 148598,
+      "sha256": "edf98356f8abee442d06b07ea66c6a6a56dbaf39e705a13399ef99c32ce9171f"
+    },
+    {
+      "path": "studies/interim_v1_20261113/figures/source_scatter/長沼_HSR_NEDO_reference_β_MLP_校正後_散布図.png",
+      "bytes": 307645,
+      "sha256": "61b6dc06a1aa829264e3bd44c22f909d484c4dbebc7b37a34ab80edac768c484"
+    },
+    {
+      "path": "studies/interim_v1_20261113/figures/source_scatter/長沼_HSR_NEDO_reference_β_MLP_校正後_散布図.svg",
+      "bytes": 257366,
+      "sha256": "f194a4b35150da824cf408a8c087e16bc7b3e3f9fb9b12a628c0b062120d9290"
+    },
+    {
+      "path": "studies/interim_v1_20261113/figures/source_scatter/長沼_TSR_NEDO_reference_β_MLP_校正後_散布図.pdf",
+      "bytes": 125373,
+      "sha256": "1d7b1cc6356cde16432368f04a06747343e44b1c2013d015a0419175b26aaad1"
+    },
+    {
+      "path": "studies/interim_v1_20261113/figures/source_scatter/長沼_TSR_NEDO_reference_β_MLP_校正後_散布図.png",
+      "bytes": 268817,
+      "sha256": "b9304120aff9e5f7c015bf3277a032e014234936004f71100bcc2356d4139131"
+    },
+    {
+      "path": "studies/interim_v1_20261113/figures/source_scatter/長沼_TSR_NEDO_reference_β_MLP_校正後_散布図.svg",
+      "bytes": 217878,
+      "sha256": "32ffdbceca829ca101ef7e9d9151cd9022c0f934b40c7f03cd28f17e1b86a5cd"
+    },
+    {
+      "path": "studies/interim_v1_20261113/model_inventory.json",
+      "bytes": 10756,
+      "sha256": "470af0ad5d2d63f4377f62a50a165df1afd6c8aea202f6764edc8858c05df32c"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/common_hours/Naganuma/NEDO_reference_LSTM/architecture.json",
+      "bytes": 314,
+      "sha256": "77a60d2cf49cb2742ff2156fe17def20c9956a8204c7642a657f13e063e56e3b"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/common_hours/Naganuma/NEDO_reference_LSTM/config.json",
+      "bytes": 1866,
+      "sha256": "4b92beb25bb1ef99b5d37d06e80b4ebb486a86bc895690facc530252b34abce2"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/common_hours/Naganuma/NEDO_reference_LSTM/feature_scaler.json",
+      "bytes": 3453,
+      "sha256": "33b0173f2ce16c48f0dedd390101245d4b2b18e3c80c6062db5c1bc212e093af"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/common_hours/Naganuma/NEDO_reference_LSTM/model.pt",
+      "bytes": 78335,
+      "sha256": "8ff2283a80ce44263bf1d60c176d31fc199c8b69db648cafefced92ba9d1c133"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/common_hours/Naganuma/NEDO_reference_LSTM/model_report.json",
+      "bytes": 1011,
+      "sha256": "8c17d575a6bb6d9d821c60cd6e622bb7dda5f0e0f5442713a832f62252c75b7d"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/common_hours/Naganuma/NEDO_reference_LSTM/training_history.csv",
+      "bytes": 12209,
+      "sha256": "2985c9ea025576860d596eb2ad8f99e8904d7482ac9a03c77cb782f60db27ba6"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/common_hours/Naganuma/NEDO_reference_LSTM/training_history.pdf",
+      "bytes": 21185,
+      "sha256": "95d903938cb1a2f145d5ff50d17559dbb10da8a4b29eec9ab3c99f3dea917028"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/common_hours/Naganuma/NEDO_reference_LSTM/training_history.png",
+      "bytes": 112388,
+      "sha256": "56af4811c7efc2750d0f2a2826b60d6c67c5ceb1eac7c57433647dc24167ffd8"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/common_hours/Naganuma/NEDO_reference_MLP/architecture.json",
+      "bytes": 675,
+      "sha256": "b8be7fd38cfcdafb75bc3f82e17244448069e1999f6ebbd454b3733e4ffd7143"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/common_hours/Naganuma/NEDO_reference_MLP/config.json",
+      "bytes": 1864,
+      "sha256": "1c7dba55a16e515f4ffe372f837175e0cf3059a83d294339469fe86b010015f8"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/common_hours/Naganuma/NEDO_reference_MLP/feature_scaler.json",
+      "bytes": 3453,
+      "sha256": "33b0173f2ce16c48f0dedd390101245d4b2b18e3c80c6062db5c1bc212e093af"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/common_hours/Naganuma/NEDO_reference_MLP/model.pt",
+      "bytes": 124351,
+      "sha256": "8175b5b46df695e39e96610af9ebaef5f05491bdf38f2e81aa20e90d75e8a1fb"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/common_hours/Naganuma/NEDO_reference_MLP/model_report.json",
+      "bytes": 1007,
+      "sha256": "be2832307ebbc76ae07c3f2699ca6262bdd57c817f314f3dcc40bf7fc9872107"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/common_hours/Naganuma/NEDO_reference_MLP/training_history.csv",
+      "bytes": 11997,
+      "sha256": "0c5deb02d342004b5018ef6ae278427c2edde1b38945c0eb052a7530621013a7"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/common_hours/Naganuma/NEDO_reference_MLP/training_history.pdf",
+      "bytes": 21183,
+      "sha256": "a1e96da89312e6662cdfd934b2b3c563d8fbaa73b757e39382912e4e52350e8e"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/common_hours/Naganuma/NEDO_reference_MLP/training_history.png",
+      "bytes": 112864,
+      "sha256": "3fb17615ae9a580b98dc5d9894ea51376b7dd0e5d6cedafd04b66977ffa379cc"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/common_hours/Naganuma/NEDO_reference_SelfAttention/architecture.json",
+      "bytes": 1506,
+      "sha256": "44da7d9f6c3e4758db6d048989ab57b3c8ba2c6bd9557209bc2b6f956e85fc86"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/common_hours/Naganuma/NEDO_reference_SelfAttention/config.json",
+      "bytes": 1985,
+      "sha256": "870a8ed9b37ef9ac236bdecb232e0129269e853685113b8f1b6ea3f99f08dcbc"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/common_hours/Naganuma/NEDO_reference_SelfAttention/feature_scaler.json",
+      "bytes": 3453,
+      "sha256": "33b0173f2ce16c48f0dedd390101245d4b2b18e3c80c6062db5c1bc212e093af"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/common_hours/Naganuma/NEDO_reference_SelfAttention/model.pt",
+      "bytes": 63799,
+      "sha256": "ed1a5f0e1178f8585ce1430c62b63d1775fd7e9fd6629486770ff9214ceaf05a"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/common_hours/Naganuma/NEDO_reference_SelfAttention/model_report.json",
+      "bytes": 1016,
+      "sha256": "aa98a9bc704af0b6778dfbb8ea10c12bffa3fde5ff15090b24a7fce4fb8a979d"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/common_hours/Naganuma/NEDO_reference_SelfAttention/training_history.csv",
+      "bytes": 15274,
+      "sha256": "0603c89211f52f968215e0ff2752fee867344ef3644ceff1c4e5d79f47331e04"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/common_hours/Naganuma/NEDO_reference_SelfAttention/training_history.pdf",
+      "bytes": 20739,
+      "sha256": "90a21d053507156610e7ff857fa20a6bc4bb867499957b0094e37ea505862292"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/common_hours/Naganuma/NEDO_reference_SelfAttention/training_history.png",
+      "bytes": 122014,
+      "sha256": "64f455c997feff1fceeb4073ce293d941c623d64749c3d73ee7abcc8ba7d9358"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/common_hours/Naganuma/NEDO_reference_TCN/architecture.json",
+      "bytes": 1534,
+      "sha256": "d1411ebade804276cb4b1fb88cb6b577093e63c0d03f446871037e7a0fe433dc"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/common_hours/Naganuma/NEDO_reference_TCN/config.json",
+      "bytes": 1864,
+      "sha256": "8dd87198b115bb7801a004d353779231fb1cdbd83a96ebbe53c246e23a4a2ce4"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/common_hours/Naganuma/NEDO_reference_TCN/feature_scaler.json",
+      "bytes": 3453,
+      "sha256": "33b0173f2ce16c48f0dedd390101245d4b2b18e3c80c6062db5c1bc212e093af"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/common_hours/Naganuma/NEDO_reference_TCN/model.pt",
+      "bytes": 30665,
+      "sha256": "b2bebb691818024ff38a5d87601a460e100941dc476264cd11543ca807908812"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/common_hours/Naganuma/NEDO_reference_TCN/model_report.json",
+      "bytes": 1009,
+      "sha256": "679055ae7d118e0611aff38540146b4ef26e46742e92568e362c5ad34f03da2e"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/common_hours/Naganuma/NEDO_reference_TCN/training_history.csv",
+      "bytes": 16030,
+      "sha256": "7a31e21e071082f49492a688e61ede65beb617f218f65ec615f4c7b5e47c27ec"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/common_hours/Naganuma/NEDO_reference_TCN/training_history.pdf",
+      "bytes": 20902,
+      "sha256": "9a83da9ec9e2815a7583710527a141af8731e8e2e177bd9b6b1aa28559304145"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/common_hours/Naganuma/NEDO_reference_TCN/training_history.png",
+      "bytes": 112802,
+      "sha256": "92223d7797e70a1e53d2f891b46aff3652db3acfb3c0505da3cbeeca7b924908"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/common_hours/Naganuma/PUBLIC_POWER_MLP/architecture.json",
+      "bytes": 675,
+      "sha256": "b8be7fd38cfcdafb75bc3f82e17244448069e1999f6ebbd454b3733e4ffd7143"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/common_hours/Naganuma/PUBLIC_POWER_MLP/config.json",
+      "bytes": 1862,
+      "sha256": "f2e771da179f06d4304f801f345d18f9cc7be165754aa584f7185547e9442736"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/common_hours/Naganuma/PUBLIC_POWER_MLP/feature_scaler.json",
+      "bytes": 3455,
+      "sha256": "3e077d2e539d4d13f68b58836b630c0693f43845ccf54aead05b6e438f33a690"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/common_hours/Naganuma/PUBLIC_POWER_MLP/model.pt",
+      "bytes": 124351,
+      "sha256": "c20ac0d9b0f883ac09749e73e5d8498b63085998aaf2227b6c16512785ad287a"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/common_hours/Naganuma/PUBLIC_POWER_MLP/model_report.json",
+      "bytes": 1012,
+      "sha256": "f5d95b7e03e4f0f2846620fff10a636bbd29be253ca23bc3816b93fab4f98246"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/common_hours/Naganuma/PUBLIC_POWER_MLP/training_history.csv",
+      "bytes": 12970,
+      "sha256": "024f8182cd39e19002f25972d59b7d187a376f4f03c85af177424ff7eb9e2562"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/common_hours/Naganuma/PUBLIC_POWER_MLP/training_history.pdf",
+      "bytes": 22640,
+      "sha256": "fcf85d5efda17a7b2544fda5891a2dff4ce68dfd23ccc9e51be5b81e484bcef7"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/common_hours/Naganuma/PUBLIC_POWER_MLP/training_history.png",
+      "bytes": 114434,
+      "sha256": "3e0ace7ed3358399edd2d8e34ca60020e35e2f12c03ae2abf790ffeef8e70112"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/common_hours/Naganuma/PUBLIC_POWER_SelfAttention/architecture.json",
+      "bytes": 1506,
+      "sha256": "44da7d9f6c3e4758db6d048989ab57b3c8ba2c6bd9557209bc2b6f956e85fc86"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/common_hours/Naganuma/PUBLIC_POWER_SelfAttention/config.json",
+      "bytes": 1983,
+      "sha256": "f979492a43ed44ef582e8cb1a161e76a2c946719aa0d70c051ff8ba5ed3e54fe"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/common_hours/Naganuma/PUBLIC_POWER_SelfAttention/feature_scaler.json",
+      "bytes": 3455,
+      "sha256": "3e077d2e539d4d13f68b58836b630c0693f43845ccf54aead05b6e438f33a690"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/common_hours/Naganuma/PUBLIC_POWER_SelfAttention/model.pt",
+      "bytes": 63799,
+      "sha256": "2264790ee27d8fbc6af0d7ceaa43dd807661b759a8509944442c8fa2e92db2c6"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/common_hours/Naganuma/PUBLIC_POWER_SelfAttention/model_report.json",
+      "bytes": 1014,
+      "sha256": "bf501fe41b607ec7363c1bdea010a74bfc5138727e3154b9a713fbf1827117d3"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/common_hours/Naganuma/PUBLIC_POWER_SelfAttention/training_history.csv",
+      "bytes": 17606,
+      "sha256": "d215c3150fae7c51b5aad1f9516f3c741366559cab9794d4af3f6f09e0af7894"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/common_hours/Naganuma/PUBLIC_POWER_SelfAttention/training_history.pdf",
+      "bytes": 23127,
+      "sha256": "52bd263899e9e0c7423dfc7ed575e7abf5afd0fd01d7d5ec3ec9544e6c835c72"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/common_hours/Naganuma/PUBLIC_POWER_SelfAttention/training_history.png",
+      "bytes": 129888,
+      "sha256": "a63504871f9cca79dc1a85774abc8a9d889ce5cb1cdbef4426f995e2a217c8a5"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/common_hours/Naganuma/PUBLIC_POWER_TCN/architecture.json",
+      "bytes": 1534,
+      "sha256": "d1411ebade804276cb4b1fb88cb6b577093e63c0d03f446871037e7a0fe433dc"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/common_hours/Naganuma/PUBLIC_POWER_TCN/config.json",
+      "bytes": 1862,
+      "sha256": "64089730e4a4cab8674480a1713c8840539c9cb204d7b6a52dccc8ecb7d3bfb8"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/common_hours/Naganuma/PUBLIC_POWER_TCN/feature_scaler.json",
+      "bytes": 3455,
+      "sha256": "3e077d2e539d4d13f68b58836b630c0693f43845ccf54aead05b6e438f33a690"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/common_hours/Naganuma/PUBLIC_POWER_TCN/model.pt",
+      "bytes": 30665,
+      "sha256": "58bb7b5ae59176353ece26ead03031a19751c1ec04749b487f4df1816adc4811"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/common_hours/Naganuma/PUBLIC_POWER_TCN/model_report.json",
+      "bytes": 1009,
+      "sha256": "1a7d7368a5a7d3ff680c35dda83f16b24ffd5c1b7388d4c33b3235dda6b0c457"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/common_hours/Naganuma/PUBLIC_POWER_TCN/training_history.csv",
+      "bytes": 14291,
+      "sha256": "8b57ce8a425d89365b943b29d41f4a4406bd4321b35fe6e61bf9323d79c641d1"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/common_hours/Naganuma/PUBLIC_POWER_TCN/training_history.pdf",
+      "bytes": 22033,
+      "sha256": "3ae20aba85724f7268ff3388c591d1ee53540f412cf62857a274fd8268e0fc8d"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/common_hours/Naganuma/PUBLIC_POWER_TCN/training_history.png",
+      "bytes": 122333,
+      "sha256": "9e0bd2556c0fe04353564c73d0f4d9b47b87fdc6af219a0c8ff0b0e4e2658da0"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/common_hours/Tsukuba/NEDO_reference_LSTM/architecture.json",
+      "bytes": 314,
+      "sha256": "77a60d2cf49cb2742ff2156fe17def20c9956a8204c7642a657f13e063e56e3b"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/common_hours/Tsukuba/NEDO_reference_LSTM/config.json",
+      "bytes": 1865,
+      "sha256": "bc7ae31a193384d96ee54c4531f0149ab2e090b8633b29eba6ed142f56febbbb"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/common_hours/Tsukuba/NEDO_reference_LSTM/feature_scaler.json",
+      "bytes": 3446,
+      "sha256": "961300c930ac3fc7bb04c133c5058cbd0ccf27d7ffec341f134ca5ad292aee07"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/common_hours/Tsukuba/NEDO_reference_LSTM/model.pt",
+      "bytes": 78335,
+      "sha256": "f0dcd5d2ad88aeab3637a4d3186366e6f3605973532b8c1433231b443622bb60"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/common_hours/Tsukuba/NEDO_reference_LSTM/model_report.json",
+      "bytes": 1016,
+      "sha256": "8286a65c97a57cae6607a1870839431fbd93aea4335001fb226ac68f8e197ba3"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/common_hours/Tsukuba/NEDO_reference_LSTM/training_history.csv",
+      "bytes": 12865,
+      "sha256": "d05271f1d37b5beb93548b5bf867ebd47eb0088856d9a0dc8c7b760f884f8ce9"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/common_hours/Tsukuba/NEDO_reference_LSTM/training_history.pdf",
+      "bytes": 21403,
+      "sha256": "9c6c5fc40fa7e32be0e072425e88ead6e6c513e6c48b1197b1f9acaec9d92b97"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/common_hours/Tsukuba/NEDO_reference_LSTM/training_history.png",
+      "bytes": 111912,
+      "sha256": "b3bbf4a8632d411fe271a05fe04a7d4597718443eb9554862910ead0ec93fa0a"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/common_hours/Tsukuba/NEDO_reference_MLP/architecture.json",
+      "bytes": 675,
+      "sha256": "b8be7fd38cfcdafb75bc3f82e17244448069e1999f6ebbd454b3733e4ffd7143"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/common_hours/Tsukuba/NEDO_reference_MLP/config.json",
+      "bytes": 1863,
+      "sha256": "118192d0e024216548c1d7f1baf2ea960ae8d3eccfad1474186130e859e5f11e"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/common_hours/Tsukuba/NEDO_reference_MLP/feature_scaler.json",
+      "bytes": 3446,
+      "sha256": "961300c930ac3fc7bb04c133c5058cbd0ccf27d7ffec341f134ca5ad292aee07"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/common_hours/Tsukuba/NEDO_reference_MLP/model.pt",
+      "bytes": 124351,
+      "sha256": "e3a5823a7162f020d08bd1e6f9fa572c9a5a4f9a73625e45681b87a8dd2ba923"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/common_hours/Tsukuba/NEDO_reference_MLP/model_report.json",
+      "bytes": 1011,
+      "sha256": "1227f7057d7e0d15e06226bf3fd8c8f396e4c942007b5cd7722ae7993c9ca506"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/common_hours/Tsukuba/NEDO_reference_MLP/training_history.csv",
+      "bytes": 13524,
+      "sha256": "250a00a0e204d88375c27abb4e6bc18a478d287d488a64af8aebdab11ba9506d"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/common_hours/Tsukuba/NEDO_reference_MLP/training_history.pdf",
+      "bytes": 20635,
+      "sha256": "35b1f03e2c27f91f3eee8ff2b7358665037f528844855a78381fd5e735331bb7"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/common_hours/Tsukuba/NEDO_reference_MLP/training_history.png",
+      "bytes": 108595,
+      "sha256": "89eb7ccec0924258601df9dc8063c1f288c86dc72e963c4464f269ab2537358d"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/common_hours/Tsukuba/NEDO_reference_SelfAttention/architecture.json",
+      "bytes": 1506,
+      "sha256": "44da7d9f6c3e4758db6d048989ab57b3c8ba2c6bd9557209bc2b6f956e85fc86"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/common_hours/Tsukuba/NEDO_reference_SelfAttention/config.json",
+      "bytes": 1984,
+      "sha256": "e2d6b5a9bc0da12e6a86b32f7c748b0fa0ecc5d916fbcf5c77115aefe0ae715d"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/common_hours/Tsukuba/NEDO_reference_SelfAttention/feature_scaler.json",
+      "bytes": 3446,
+      "sha256": "961300c930ac3fc7bb04c133c5058cbd0ccf27d7ffec341f134ca5ad292aee07"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/common_hours/Tsukuba/NEDO_reference_SelfAttention/model.pt",
+      "bytes": 63799,
+      "sha256": "f4e26296aef0e063cec20a328c3cffd376a2edc014d8f03d766b52a7e25b8733"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/common_hours/Tsukuba/NEDO_reference_SelfAttention/model_report.json",
+      "bytes": 1020,
+      "sha256": "366974201837469bc1bb7b8382ef3f353e37fa5acbf3909fb6ac022dc5c0137b"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/common_hours/Tsukuba/NEDO_reference_SelfAttention/training_history.csv",
+      "bytes": 31107,
+      "sha256": "0f7a00e95ff7607c20b401de50371d85fdbe4aa3094e7acd27eb773533b7ab74"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/common_hours/Tsukuba/NEDO_reference_SelfAttention/training_history.pdf",
+      "bytes": 23458,
+      "sha256": "70659e216cdce2c259014699e8e58b47434c3274c6d5e6045881e667184e8dbf"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/common_hours/Tsukuba/NEDO_reference_SelfAttention/training_history.png",
+      "bytes": 112999,
+      "sha256": "08f337289e14d1e6f52bbac7fed995f7074d93d1b3ed9787a33116f48ee8efbd"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/common_hours/Tsukuba/NEDO_reference_TCN/architecture.json",
+      "bytes": 1534,
+      "sha256": "d1411ebade804276cb4b1fb88cb6b577093e63c0d03f446871037e7a0fe433dc"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/common_hours/Tsukuba/NEDO_reference_TCN/config.json",
+      "bytes": 1863,
+      "sha256": "42b3735c0430934125ed059fa0fc88a3679df1057b6eff6039ee692b3bb248c4"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/common_hours/Tsukuba/NEDO_reference_TCN/feature_scaler.json",
+      "bytes": 3446,
+      "sha256": "961300c930ac3fc7bb04c133c5058cbd0ccf27d7ffec341f134ca5ad292aee07"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/common_hours/Tsukuba/NEDO_reference_TCN/model.pt",
+      "bytes": 30665,
+      "sha256": "6865f111700d36f1abf9a4e974b96f601b9b539767fa04e82ad677139713171f"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/common_hours/Tsukuba/NEDO_reference_TCN/model_report.json",
+      "bytes": 1011,
+      "sha256": "b3e30eb4be6ee76370c30ac3fd9e52d2cc8a7da6c83a3b2286ecacb1d59746be"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/common_hours/Tsukuba/NEDO_reference_TCN/training_history.csv",
+      "bytes": 15693,
+      "sha256": "c47a1a24754dad1a793df6994037e43d339aedcc55de4a7d40ffcff88d6acfd5"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/common_hours/Tsukuba/NEDO_reference_TCN/training_history.pdf",
+      "bytes": 20822,
+      "sha256": "0026f9035898fac77f35f28682bc0ae9b92d4b62b2364be5c28a8b685f942703"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/common_hours/Tsukuba/NEDO_reference_TCN/training_history.png",
+      "bytes": 110836,
+      "sha256": "e4d85e2d2c3d7bce3517602ed5f4623926d0fa73806c605c11118250983613b0"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/common_hours/Tsukuba/PUBLIC_POWER_MLP/architecture.json",
+      "bytes": 675,
+      "sha256": "b8be7fd38cfcdafb75bc3f82e17244448069e1999f6ebbd454b3733e4ffd7143"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/common_hours/Tsukuba/PUBLIC_POWER_MLP/config.json",
+      "bytes": 1861,
+      "sha256": "a13e33e299ace7ab43757a1cb24fb860ef8fe05ed8f57aca4d764610d46a7a7d"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/common_hours/Tsukuba/PUBLIC_POWER_MLP/feature_scaler.json",
+      "bytes": 3445,
+      "sha256": "359a0064ef8b8cb99f19ead7db164aac1ae8c343de1da8d1accb830430d4293d"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/common_hours/Tsukuba/PUBLIC_POWER_MLP/model.pt",
+      "bytes": 124351,
+      "sha256": "6483011c35162788774d81b6e0797775c5f07506b5c2e9cb5fbfa67d55733396"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/common_hours/Tsukuba/PUBLIC_POWER_MLP/model_report.json",
+      "bytes": 1010,
+      "sha256": "6b01cb982817f0c5a1a8e4b09c1803d4541d554f3984beeaeecaaff4476cfccc"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/common_hours/Tsukuba/PUBLIC_POWER_MLP/training_history.csv",
+      "bytes": 13537,
+      "sha256": "8df314af29869110b844912e7433ccae30c6516caf220402e79805919e8c29bf"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/common_hours/Tsukuba/PUBLIC_POWER_MLP/training_history.pdf",
+      "bytes": 21919,
+      "sha256": "b9f5cac274f60d4c184dfd43e9751b8248fbf7bdb8083e14f2938a965dc101d4"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/common_hours/Tsukuba/PUBLIC_POWER_MLP/training_history.png",
+      "bytes": 114983,
+      "sha256": "e1fd47165e251779ed95567ba3a4d55adcb992e37ab42406c00ed749dc7eb3d4"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/common_hours/Tsukuba/PUBLIC_POWER_SelfAttention/architecture.json",
+      "bytes": 1506,
+      "sha256": "44da7d9f6c3e4758db6d048989ab57b3c8ba2c6bd9557209bc2b6f956e85fc86"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/common_hours/Tsukuba/PUBLIC_POWER_SelfAttention/config.json",
+      "bytes": 1982,
+      "sha256": "8ad5a423fb8550179a2f5cb80501ba239b7902bc3cd893c5d27f28480a2dcf3f"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/common_hours/Tsukuba/PUBLIC_POWER_SelfAttention/feature_scaler.json",
+      "bytes": 3445,
+      "sha256": "359a0064ef8b8cb99f19ead7db164aac1ae8c343de1da8d1accb830430d4293d"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/common_hours/Tsukuba/PUBLIC_POWER_SelfAttention/model.pt",
+      "bytes": 63799,
+      "sha256": "92f9ff9f404c3c72c29ac76d6b14d5704862e3fbab92caa697cfe644de3d74ce"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/common_hours/Tsukuba/PUBLIC_POWER_SelfAttention/model_report.json",
+      "bytes": 1017,
+      "sha256": "b1620b7b072928da55d4584fb44b91c7fe137bdd03600dda6db3ff246b6813f3"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/common_hours/Tsukuba/PUBLIC_POWER_SelfAttention/training_history.csv",
+      "bytes": 29266,
+      "sha256": "8901d1ab8045e7c9c244c2b60213c1afff39915bf852edab6e48092dd675a93d"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/common_hours/Tsukuba/PUBLIC_POWER_SelfAttention/training_history.pdf",
+      "bytes": 24573,
+      "sha256": "41a8b3b478f0954d489c31d15a32244ead60d1de2d389414b0a706c22f4b3a0f"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/common_hours/Tsukuba/PUBLIC_POWER_SelfAttention/training_history.png",
+      "bytes": 117286,
+      "sha256": "3fd2f4e9ccc34da408751ae156ea4c15931fff6a30f095c6278ad1e5075e5a25"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/common_hours/Tsukuba/PUBLIC_POWER_TCN/architecture.json",
+      "bytes": 1534,
+      "sha256": "d1411ebade804276cb4b1fb88cb6b577093e63c0d03f446871037e7a0fe433dc"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/common_hours/Tsukuba/PUBLIC_POWER_TCN/config.json",
+      "bytes": 1861,
+      "sha256": "623b9f6f27209eb9297e7f04f3146400c8718de131258c7a74ecddee082fb4a2"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/common_hours/Tsukuba/PUBLIC_POWER_TCN/feature_scaler.json",
+      "bytes": 3445,
+      "sha256": "359a0064ef8b8cb99f19ead7db164aac1ae8c343de1da8d1accb830430d4293d"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/common_hours/Tsukuba/PUBLIC_POWER_TCN/model.pt",
+      "bytes": 30665,
+      "sha256": "0b713f907e444b8a48856708a40d54d597af0388d4a65ac023ebb4bb3391fae3"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/common_hours/Tsukuba/PUBLIC_POWER_TCN/model_report.json",
+      "bytes": 1009,
+      "sha256": "42921f8959f1c55ad937b65a3bda26deeee05d4bddfc9b9f8432c279e0d9c649"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/common_hours/Tsukuba/PUBLIC_POWER_TCN/training_history.csv",
+      "bytes": 15378,
+      "sha256": "d771954b5102cdd895bf029722b213ff06f19826d91b42bc9f3b7351b51fca74"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/common_hours/Tsukuba/PUBLIC_POWER_TCN/training_history.pdf",
+      "bytes": 22315,
+      "sha256": "2738c9e959709e9c64bec6c172da72a7c802a2f1b09c6901a0ebf2e0e41ded50"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/common_hours/Tsukuba/PUBLIC_POWER_TCN/training_history.png",
+      "bytes": 117576,
+      "sha256": "653802d398959fd094264ceede8911d06599220ec9fa26fc4b357e252effb63c"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/native/Naganuma/NEDO_reference_LSTM/architecture.json",
+      "bytes": 314,
+      "sha256": "77a60d2cf49cb2742ff2156fe17def20c9956a8204c7642a657f13e063e56e3b"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/native/Naganuma/NEDO_reference_LSTM/config.json",
+      "bytes": 2120,
+      "sha256": "865aa9137c2a547146241f6ccf18c8efec49bd767193d3d456b61baf9b67517c"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/native/Naganuma/NEDO_reference_LSTM/feature_scaler.json",
+      "bytes": 3456,
+      "sha256": "354c688741b47a3bcf3af63836eaeddb8decadf2ee93fac8829c1ad77a83fc54"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/native/Naganuma/NEDO_reference_LSTM/model.pt",
+      "bytes": 78335,
+      "sha256": "85d68439e72fdb000eeb22ac7604fc48c6c28a6f8d53d8c100df1b0739552847"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/native/Naganuma/NEDO_reference_LSTM/model_report.json",
+      "bytes": 1094,
+      "sha256": "4844ca02953157325617dfc5c44cbb95e7f60d74b5c5145243c59c5f0d394937"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/native/Naganuma/NEDO_reference_LSTM/training_history.csv",
+      "bytes": 12029,
+      "sha256": "e0d91957fcc9eccc065aa47e740ee6822b366353e45d9cc16bbb62ffaa0e99fc"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/native/Naganuma/NEDO_reference_LSTM/training_history.pdf",
+      "bytes": 21363,
+      "sha256": "dcf7e39d4e26d7b66ee58094a63853ad737d74239b3fa1d89f9233811fe5eccb"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/native/Naganuma/NEDO_reference_LSTM/training_history.png",
+      "bytes": 109247,
+      "sha256": "59372c2a67b980e94f837da88d1bcc9be86b727718d4163ceb8acd1777fd6be3"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/native/Naganuma/NEDO_reference_MLP/architecture.json",
+      "bytes": 675,
+      "sha256": "b8be7fd38cfcdafb75bc3f82e17244448069e1999f6ebbd454b3733e4ffd7143"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/native/Naganuma/NEDO_reference_MLP/config.json",
+      "bytes": 1863,
+      "sha256": "2acf9868a86cbe54d9699bad561a0aa71c7825e81de68cd5e8edb59176c0ddb2"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/native/Naganuma/NEDO_reference_MLP/feature_scaler.json",
+      "bytes": 3456,
+      "sha256": "354c688741b47a3bcf3af63836eaeddb8decadf2ee93fac8829c1ad77a83fc54"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/native/Naganuma/NEDO_reference_MLP/model.pt",
+      "bytes": 124351,
+      "sha256": "b3c90a41853c1ea3effb340d86e93289e853f3bc51588e1409c0f35618e21a22"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/native/Naganuma/NEDO_reference_MLP/model_report.json",
+      "bytes": 1014,
+      "sha256": "584c288c5b7314bcf231dc39127524132bb773005c556421681171513f2320e3"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/native/Naganuma/NEDO_reference_MLP/training_history.csv",
+      "bytes": 12084,
+      "sha256": "948890ee6f22f1a19787bb047b493e6802ff7beeaf7bc312469ed40abf3fc689"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/native/Naganuma/NEDO_reference_MLP/training_history.pdf",
+      "bytes": 21225,
+      "sha256": "f6f9267039db2ac676a914f4ae89fba2d68dc5c47e7ede98c333608b203d0dc2"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/native/Naganuma/NEDO_reference_MLP/training_history.png",
+      "bytes": 112904,
+      "sha256": "2cde64a134d906815fb6ca9bac9587e24cbb08693a3940c6b62f33ca0a4b1801"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/native/Naganuma/NEDO_reference_SelfAttention/architecture.json",
+      "bytes": 1506,
+      "sha256": "44da7d9f6c3e4758db6d048989ab57b3c8ba2c6bd9557209bc2b6f956e85fc86"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/native/Naganuma/NEDO_reference_SelfAttention/config.json",
+      "bytes": 1984,
+      "sha256": "d0fed5bb891fc7c21fc4a698c50c6deb41e5ee07339cf0e23e30ac531665f9e0"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/native/Naganuma/NEDO_reference_SelfAttention/feature_scaler.json",
+      "bytes": 3456,
+      "sha256": "354c688741b47a3bcf3af63836eaeddb8decadf2ee93fac8829c1ad77a83fc54"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/native/Naganuma/NEDO_reference_SelfAttention/model.pt",
+      "bytes": 63799,
+      "sha256": "bde63bc3185d19af30b8009bb3c4fff60aa77e27bcdfe85156f6a10c7c8ab888"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/native/Naganuma/NEDO_reference_SelfAttention/model_report.json",
+      "bytes": 1013,
+      "sha256": "9d8f5f01007037257ae5d95f41a28047a8df36b561af8b385bda92a97f949fe7"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/native/Naganuma/NEDO_reference_SelfAttention/training_history.csv",
+      "bytes": 24279,
+      "sha256": "6d89d6f6acadcdd97a19c438aebe9ed5078ead1ba139b09de8f7137ff788ef9d"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/native/Naganuma/NEDO_reference_SelfAttention/training_history.pdf",
+      "bytes": 21228,
+      "sha256": "395adcb30aa1d6d76a0c4ab338a3cf92555579101272fb6a031f703bfbce1422"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/native/Naganuma/NEDO_reference_SelfAttention/training_history.png",
+      "bytes": 110665,
+      "sha256": "0f350887422b60d704c7c90701beaf3b4fa2912d1efdb09369496d7daab7a747"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/native/Naganuma/NEDO_reference_TCN/architecture.json",
+      "bytes": 1534,
+      "sha256": "d1411ebade804276cb4b1fb88cb6b577093e63c0d03f446871037e7a0fe433dc"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/native/Naganuma/NEDO_reference_TCN/config.json",
+      "bytes": 1863,
+      "sha256": "6435da75876bc27704ba2666e7765ba9b740b1216aba4de3444ed26a816afe49"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/native/Naganuma/NEDO_reference_TCN/feature_scaler.json",
+      "bytes": 3456,
+      "sha256": "354c688741b47a3bcf3af63836eaeddb8decadf2ee93fac8829c1ad77a83fc54"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/native/Naganuma/NEDO_reference_TCN/model.pt",
+      "bytes": 30665,
+      "sha256": "d4307f86b96309e2e9750be3c65cc79fb646044e867accc899bf86fff81b5f91"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/native/Naganuma/NEDO_reference_TCN/model_report.json",
+      "bytes": 1012,
+      "sha256": "83c621fa3f473d754984f25fec275040f3304b52e46fb6f60c8e0065143c82c3"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/native/Naganuma/NEDO_reference_TCN/training_history.csv",
+      "bytes": 16422,
+      "sha256": "537a082be98400dd288fa1ac4c94e1a7dc3e5c72b58bfe4ccae73db49ba29441"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/native/Naganuma/NEDO_reference_TCN/training_history.pdf",
+      "bytes": 20887,
+      "sha256": "4c1cc3e89ecdeba8d887819bd3f92458aed88a6f296c0e975001d9a0a1c5a72d"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/native/Naganuma/NEDO_reference_TCN/training_history.png",
+      "bytes": 110290,
+      "sha256": "5a743a24cafc4911e4e5564b69ad1d21b43a5582a71b2d3c8464dadbf153fe13"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/native/Tsukuba/NEDO_reference_LSTM/architecture.json",
+      "bytes": 314,
+      "sha256": "77a60d2cf49cb2742ff2156fe17def20c9956a8204c7642a657f13e063e56e3b"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/native/Tsukuba/NEDO_reference_LSTM/config.json",
+      "bytes": 1865,
+      "sha256": "439a743a225daf3533b034c46abd40aea753bd879f03e891ae1ee6ff7f4c6f2f"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/native/Tsukuba/NEDO_reference_LSTM/feature_scaler.json",
+      "bytes": 3442,
+      "sha256": "8c8437ac88431dbd53f8505b4cab954ad60a63182e123d64d187305d14a281f5"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/native/Tsukuba/NEDO_reference_LSTM/model.pt",
+      "bytes": 78335,
+      "sha256": "8ed0bd9be417b9e3212832bbe7cc81b203c21e3a877fffcaffc5bfaf38bc99c4"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/native/Tsukuba/NEDO_reference_LSTM/model_report.json",
+      "bytes": 1013,
+      "sha256": "660ee13239916a1bea2a62511988f3eb4a2d7ca9bf3c9c865dc99c7371bebf39"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/native/Tsukuba/NEDO_reference_LSTM/training_history.csv",
+      "bytes": 12251,
+      "sha256": "41058cdb94306c414bd3e4b313aaf4dd6b093580ac8606b14396f125d2def4a5"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/native/Tsukuba/NEDO_reference_LSTM/training_history.pdf",
+      "bytes": 21380,
+      "sha256": "43a67c78bc0ebdef9f9206e8a0e90c4f57aa465d69be85f3c6c1f594fcfb7b4f"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/native/Tsukuba/NEDO_reference_LSTM/training_history.png",
+      "bytes": 111384,
+      "sha256": "b1082423fed18ed355c311165996e243ea909fc172a958cc96bffc35087d16e9"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/native/Tsukuba/NEDO_reference_MLP/architecture.json",
+      "bytes": 675,
+      "sha256": "b8be7fd38cfcdafb75bc3f82e17244448069e1999f6ebbd454b3733e4ffd7143"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/native/Tsukuba/NEDO_reference_MLP/config.json",
+      "bytes": 1863,
+      "sha256": "3681518a91b504e8ab7b4c340a98d35f183992374296e4e04b5f86547e153326"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/native/Tsukuba/NEDO_reference_MLP/feature_scaler.json",
+      "bytes": 3442,
+      "sha256": "8c8437ac88431dbd53f8505b4cab954ad60a63182e123d64d187305d14a281f5"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/native/Tsukuba/NEDO_reference_MLP/model.pt",
+      "bytes": 124351,
+      "sha256": "42004e597e3264d2125aa5e0f1e761099f0f360b1f5d30ca7e5b2a349258e1ce"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/native/Tsukuba/NEDO_reference_MLP/model_report.json",
+      "bytes": 1011,
+      "sha256": "a246bd860601e24e3485e001b2c54ba488543ee461ce04354e2d554085c860c3"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/native/Tsukuba/NEDO_reference_MLP/training_history.csv",
+      "bytes": 15393,
+      "sha256": "35034b0854c36dfa9f9d6146bfd1ed17bc1d0e7e455994bfb059171f23ca26c0"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/native/Tsukuba/NEDO_reference_MLP/training_history.pdf",
+      "bytes": 21270,
+      "sha256": "580d2b8a5f83592556decf555934c31831c56776aa59e725cb8dc316a69b0951"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/native/Tsukuba/NEDO_reference_MLP/training_history.png",
+      "bytes": 112805,
+      "sha256": "66e83369802317c1e7594f9725a0a907d1b95779d9a3b61330ac8db4793985d0"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/native/Tsukuba/NEDO_reference_SelfAttention/architecture.json",
+      "bytes": 1506,
+      "sha256": "44da7d9f6c3e4758db6d048989ab57b3c8ba2c6bd9557209bc2b6f956e85fc86"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/native/Tsukuba/NEDO_reference_SelfAttention/config.json",
+      "bytes": 1984,
+      "sha256": "5d8d72c29763986ab2877dd68835c2241ccd113a9ac890f75a171fce3ff93874"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/native/Tsukuba/NEDO_reference_SelfAttention/feature_scaler.json",
+      "bytes": 3442,
+      "sha256": "8c8437ac88431dbd53f8505b4cab954ad60a63182e123d64d187305d14a281f5"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/native/Tsukuba/NEDO_reference_SelfAttention/model.pt",
+      "bytes": 63799,
+      "sha256": "20b90482b4b374fe1289fdd7b3847310bfb334aed07460f91410977a42eb17b9"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/native/Tsukuba/NEDO_reference_SelfAttention/model_report.json",
+      "bytes": 1017,
+      "sha256": "b7a020ced8d9da78231cbc9cc8179a093c8353daffc0735233cdbfa385b3dd57"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/native/Tsukuba/NEDO_reference_SelfAttention/training_history.csv",
+      "bytes": 29573,
+      "sha256": "07b7f45f748db4191e02b046f95f257ceaa86e008d4af999df1a85b596ea01f6"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/native/Tsukuba/NEDO_reference_SelfAttention/training_history.pdf",
+      "bytes": 22929,
+      "sha256": "63a5ad33cbe1d391d44d7b3a55ee3a335a85b7590b2abca5c61f22d472866adb"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/native/Tsukuba/NEDO_reference_SelfAttention/training_history.png",
+      "bytes": 113507,
+      "sha256": "ac3c9006b697bdf9bdd500479ab27a4f5879abe8014a928af6518c6e3c4d390c"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/native/Tsukuba/NEDO_reference_TCN/architecture.json",
+      "bytes": 1534,
+      "sha256": "d1411ebade804276cb4b1fb88cb6b577093e63c0d03f446871037e7a0fe433dc"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/native/Tsukuba/NEDO_reference_TCN/config.json",
+      "bytes": 1863,
+      "sha256": "d32722d0b6bd320a0fd8497ccaf86c7a242d9bce17bf7dc41f98f262f282bb12"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/native/Tsukuba/NEDO_reference_TCN/feature_scaler.json",
+      "bytes": 3442,
+      "sha256": "8c8437ac88431dbd53f8505b4cab954ad60a63182e123d64d187305d14a281f5"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/native/Tsukuba/NEDO_reference_TCN/model.pt",
+      "bytes": 30665,
+      "sha256": "c96c6777c15aa8d13b9ce9049ea5c1bdb61aa15d9f531d609555a5dce06ad3a0"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/native/Tsukuba/NEDO_reference_TCN/model_report.json",
+      "bytes": 1009,
+      "sha256": "298a240df695ddc1d5bbed31113e6e774336b558d137a423732afcc3cdfaf9d8"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/native/Tsukuba/NEDO_reference_TCN/training_history.csv",
+      "bytes": 17178,
+      "sha256": "8a6597966b36a3567024ba2679fbce9ecfec33c3b5b0c133b36ac0fe2e494798"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/native/Tsukuba/NEDO_reference_TCN/training_history.pdf",
+      "bytes": 21358,
+      "sha256": "553453bfcbcfee1a1b6c0f0de03a606afd1b04cfa4982614ea4a01a97d5ef5d7"
+    },
+    {
+      "path": "studies/interim_v1_20261113/models/native/Tsukuba/NEDO_reference_TCN/training_history.png",
+      "bytes": 108880,
+      "sha256": "4778a73f6b707e360104338a5796e3c0db632885547b1cdd1aa31e1045dfa344"
+    },
+    {
+      "path": "studies/interim_v1_20261113/original_reports/結果・考察.md",
+      "bytes": 29225,
+      "sha256": "12f1866a08a1604fc915da6a30d4d617d03448891ba0a5288d2bdb7088f72531"
+    },
+    {
+      "path": "studies/interim_v1_20261113/original_reports/評価.md",
+      "bytes": 3665,
+      "sha256": "7f127f05b5767935dfc94020f8008ec53c506860216ef46ff01eac4f1b326c13"
+    },
+    {
+      "path": "studies/interim_v1_20261113/predictions/common_hours_Naganuma_test.csv",
+      "bytes": 868255,
+      "sha256": "87e101b1773b761d630a8cbe8abe7061b79e3af9f774d8d5108b85bcf99c5e1c"
+    },
+    {
+      "path": "studies/interim_v1_20261113/predictions/common_hours_Tsukuba_test.csv",
+      "bytes": 868329,
+      "sha256": "969a5281babb237ef5eee1dbfa1e76450bae682bf7fbe3d302a7022c3a047b2c"
+    },
+    {
+      "path": "studies/interim_v1_20261113/predictions/native_Naganuma_test.csv",
+      "bytes": 740218,
+      "sha256": "0afd6182e7e1e35fd88c1c5ae604d3b2dcc69dc0cdcb026c59dcad05f9230163"
+    },
+    {
+      "path": "studies/interim_v1_20261113/predictions/native_Tsukuba_test.csv",
+      "bytes": 756195,
+      "sha256": "d91aa07469bf040c5426ba79afdea8403ec563bc19d5250b40894cdef6274ca0"
+    },
+    {
+      "path": "studies/interim_v1_20261113/protocol/common_hours/Naganuma/beta_ridge_standardized.json",
+      "bytes": 1157,
+      "sha256": "2561e477c19791baedd737fdc7d4fe2a6303aca25ab60140795d4af7f3cba740"
+    },
+    {
+      "path": "studies/interim_v1_20261113/protocol/common_hours/Naganuma/fixed_beta_coefficients.json",
+      "bytes": 2577,
+      "sha256": "87e43e8457f014194b53690da894abfb4a415895e3d1b2598946013c9b70d3e7"
+    },
+    {
+      "path": "studies/interim_v1_20261113/protocol/common_hours/Naganuma/split_report.json",
+      "bytes": 1153,
+      "sha256": "517af277914edf3be07c52fb539f69902f1cdacb8187b9b3af9ad94884fc5d71"
+    },
+    {
+      "path": "studies/interim_v1_20261113/protocol/common_hours/Tsukuba/beta_ridge_standardized.json",
+      "bytes": 1160,
+      "sha256": "192fd8db635c0969d91c1001ba773cf97828f37fef9e82fdf9c10841efeb39be"
+    },
+    {
+      "path": "studies/interim_v1_20261113/protocol/common_hours/Tsukuba/fixed_beta_coefficients.json",
+      "bytes": 2584,
+      "sha256": "49da21c6e989b1f9217a1c8f140d0ab93c8122f9a0aaec62d7e6c4c8b620f01e"
+    },
+    {
+      "path": "studies/interim_v1_20261113/protocol/common_hours/Tsukuba/split_report.json",
+      "bytes": 1153,
+      "sha256": "517af277914edf3be07c52fb539f69902f1cdacb8187b9b3af9ad94884fc5d71"
+    },
+    {
+      "path": "studies/interim_v1_20261113/protocol/native/Naganuma/beta_ridge_standardized.json",
+      "bytes": 1158,
+      "sha256": "3eceff95af2f86f58e614571987485fe653222bd37471df09dcacda20ce08f86"
+    },
+    {
+      "path": "studies/interim_v1_20261113/protocol/native/Naganuma/fixed_beta_coefficients.json",
+      "bytes": 2576,
+      "sha256": "a06ae120fff7f5ec73aac6e3facbb64003419505ffdf1b0b72962c28c32d6c80"
+    },
+    {
+      "path": "studies/interim_v1_20261113/protocol/native/Naganuma/split_report.json",
+      "bytes": 1153,
+      "sha256": "35ae018cd2b4582968ae822a10d14785ac33d95a72f022511e114dd3f4befdaa"
+    },
+    {
+      "path": "studies/interim_v1_20261113/protocol/native/Tsukuba/beta_ridge_standardized.json",
+      "bytes": 1161,
+      "sha256": "8f06c1072ce728a10969e7c4f4757f7c41690ac58515f5606f4ca601d047f97b"
+    },
+    {
+      "path": "studies/interim_v1_20261113/protocol/native/Tsukuba/fixed_beta_coefficients.json",
+      "bytes": 2584,
+      "sha256": "5f747c96ee8a6992f7dbc02d3ec971a5400018a2671b2eb64a436817e4b44937"
+    },
+    {
+      "path": "studies/interim_v1_20261113/protocol/native/Tsukuba/split_report.json",
+      "bytes": 1153,
+      "sha256": "21e69b74f39a07e930433f5262c20bf3cb7c4c1472ac70185c111ef5de747863"
+    },
+    {
+      "path": "studies/interim_v1_20261113/radar_common_hours_metrics.csv",
+      "bytes": 2414,
+      "sha256": "4f924d2cfae760ead965c9195ec2aadcf9bd9361c51b942417d6952ad77b3230"
+    },
+    {
+      "path": "studies/interim_v1_20261113/radar_native_metrics.csv",
+      "bytes": 2291,
+      "sha256": "dac9967679051400e2bb8f15fc7c5166eba3a2a6def775899b86ccfc8268d3d0"
+    },
+    {
+      "path": "studies/interim_v1_20261113/README.md",
+      "bytes": 1476,
+      "sha256": "ac192645144f469b2673198a3a76516521b5ed4a95f6daac5844f376f214ffce"
+    },
+    {
+      "path": "studies/interim_v1_20261113/slide13_table_as_presented.csv",
+      "bytes": 275,
+      "sha256": "f333fc243a7aa6c1477e9ae42f72341fe550e1745f76c4d69f3cd363d5c083bd"
+    },
+    {
+      "path": "studies/interim_v1_20261113/slide23_table_as_presented.csv",
+      "bytes": 309,
+      "sha256": "1d6fa3674330491a927569417fa1e4810709c42131a5ca10f4f84857987e402d"
+    },
+    {
+      "path": "studies/interim_v1_20261113/source_provenance.json",
+      "bytes": 71421,
+      "sha256": "6d8ff46764e1d2f84f56bc9bdb2005b3a0cb458a2d0fbbf2bba0a3ed24002b0c"
+    },
+    {
+      "path": "studies/interim_v1_20261113/source_snapshot/naganuma_10feature_data.py",
+      "bytes": 8757,
+      "sha256": "e0407e1280cf41cde662322519c6cb34314f28bdbe251ea14e9abb3d2c54acc9"
+    },
+    {
+      "path": "studies/interim_v1_20261113/source_snapshot/naganuma_10feature_experiment.py",
+      "bytes": 17153,
+      "sha256": "8be33891ca8b8347bbcd389c1c8eefd4f6b75557ad5bfd9eba1839d2819b0ba5"
+    },
+    {
+      "path": "studies/interim_v1_20261113/source_snapshot/naganuma_10feature_explain.py",
+      "bytes": 2323,
+      "sha256": "08d9a85633258a65db933b126da24a19d464cf101bbaae90ce938a2bc669c10d"
+    },
+    {
+      "path": "studies/interim_v1_20261113/source_snapshot/naganuma_10feature_extended_models.py",
+      "bytes": 9776,
+      "sha256": "4396431a0948dd64094bf78365abcb1e1c8aee0d5332e8e49d23b15a91f7ac84"
+    },
+    {
+      "path": "studies/interim_v1_20261113/source_snapshot/naganuma_10feature_models.py",
+      "bytes": 9960,
+      "sha256": "33419b82cd0e055966dc1f50a8e2234ee209460b5027c1b1acb668fa5d082414"
+    },
+    {
+      "path": "studies/interim_v1_20261113/source_snapshot/naganuma_10feature_reporting.py",
+      "bytes": 49238,
+      "sha256": "114b73d1d2e7240d1cef7116a91d4565aacbec96b100a1b1cb9bbde56804329f"
+    },
+    {
+      "path": "studies/interim_v1_20261113/source_snapshot/naganuma_f_to3_hourly.py",
+      "bytes": 20313,
+      "sha256": "485553c3ac34d3ee635154a34226181c5fc9224bb2ae1de8b6fa499d7f6d7b96"
+    },
+    {
+      "path": "studies/interim_v1_20261113/source_snapshot/plot_nedo_five_model_radar.py",
+      "bytes": 10940,
+      "sha256": "401134bf529506263b793bed1be762e864d2fe65ce1efe2ea6d2b54ef58f4fff"
+    },
+    {
+      "path": "studies/interim_v1_20261113/source_snapshot/plot_nedo_mape_explicit_values.py",
+      "bytes": 7181,
+      "sha256": "b7a4d7c9abe343c107328153febc253cedd688641380fa9272e157795cade9ef"
+    },
+    {
+      "path": "studies/interim_v1_20261113/source_snapshot/plot_nedo_mlp_calibrated_scatter.py",
+      "bytes": 7864,
+      "sha256": "e332c7ab8fc512cf94380342dbce36e45eafdfd630b18206c4b7e891e1ec5b59"
+    },
+    {
+      "path": "studies/interim_v1_20261113/source_snapshot/tsukuba_naganuma_10feature_data.py",
+      "bytes": 12023,
+      "sha256": "ae45f67e860008e66b0386d62f85dc502e1a1bfd0163607a648b0b454a25060b"
+    },
+    {
+      "path": "studies/interim_v1_20261113/source_snapshot/tsukuba_naganuma_10feature_experiment.py",
+      "bytes": 4009,
+      "sha256": "26a07c4c60157cd6fd7a03b668b23e1007b1ef5b7323654b7f30016dbc848396"
+    },
+    {
+      "path": "studies/interim_v1_20261113/source_snapshot/tsukuba_naganuma_10feature_reporting.py",
+      "bytes": 54737,
+      "sha256": "4d6096b6c18f601168b9ebe18dc266b07d9479490b1df9bf47dcb824bfc2b462"
+    },
+    {
+      "path": "studies/interim_v1_20261113/source_snapshot/tsukuba_naganuma_10feature_verify.py",
+      "bytes": 15854,
+      "sha256": "1232d82d123b8cf35a195bab0b60ba4a6b4c844a65f78c10c7b6714e7ce839b7"
+    },
+    {
+      "path": "studies/interim_v1_20261113/source_snapshot/比較実験F/比較実験F_TO3追加_1時間整合版/比較実験F_TO3追加_1時間整合版.py",
+      "bytes": 72793,
+      "sha256": "da0d21cfc2a75452efad9664052b717d223795d11a249ec2bfb0ccca88bb5f44"
+    },
+    {
+      "path": "studies/interim_v1_20261113/verified_test_metrics.csv",
+      "bytes": 14283,
+      "sha256": "f233ac915f410a2a588b5d5f7c7f7af283a247939074370f952aaa7344e312d5"
+    },
+    {
+      "path": "studies/interim_v1_20261113/verify_release.py",
+      "bytes": 5022,
+      "sha256": "492bfa6e4f1f8a8d67a91ae1e626b99f1bb47dac13cab0ca4efbec8def872438"
+    },
+    {
+      "path": "studies/interim_v1_20261113/再現手順.md",
+      "bytes": 4950,
+      "sha256": "7feec08f99742b7efbff47761234427e6fb825d7146ee7fa5ec2654d1e03a0b0"
+    },
+    {
+      "path": "studies/interim_v1_20261113/図表対応と相違.md",
+      "bytes": 3902,
+      "sha256": "bf51dbaa2866c52c3e01a9f54dffff5d58760775f555be7602cc23dadd0cc867"
+    }
+  ]
+}

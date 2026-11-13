@@ -1,0 +1,35 @@
+{
+  "architecture_adaptation": {
+    "dropout": 0.05,
+    "hidden_size": 32,
+    "layers": 2,
+    "readout": "last hidden, 32 to 1"
+  },
+  "cal": "fixed beta plus surface-wise affine calibrated/clipped residual",
+  "calibration": {
+    "HSR": {
+      "clip_abs": 0.08386153773456248,
+      "intercept": 0.010435218645718499,
+      "n": 855,
+      "slope": 1.0002209919483775
+    },
+    "TSR": {
+      "clip_abs": 0.11055975025238234,
+      "intercept": -0.004269552648763935,
+      "n": 855,
+      "slope": 1.2412034913555032
+    }
+  },
+  "early_stopping": "empty residual lags to match previous analysis; mismatch with recursive inference disclosed",
+  "n_train_oof_rows": 13350,
+  "raw": "fixed beta plus predicted uncalibrated residual",
+  "recursive_history": "raw model residual predictions only, separate surface/split, exact elapsed hours",
+  "training": {
+    "best_epoch": 15,
+    "best_validation_loss": 0.1844106257235869,
+    "epochs_executed": 115,
+    "parameters": 18497,
+    "torch_cpu_threads": 2,
+    "train_seconds": 296.10261999999057
+  }
+}

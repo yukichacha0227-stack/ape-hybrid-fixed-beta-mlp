@@ -1,0 +1,30 @@
+{
+  "attention": "no native attention; use attribution and permutation maps",
+  "calibration": {
+    "HSR": {
+      "clip_abs": 0.02782444528694799,
+      "intercept": 0.0029194515115174243,
+      "n": 873,
+      "slope": 1.0600487587544467
+    },
+    "TSR": {
+      "clip_abs": 0.0389892806548774,
+      "intercept": 0.0011341610932357339,
+      "n": 873,
+      "slope": 1.0666280355907929
+    }
+  },
+  "early_stopping": "empty residual lags, same reference F protocol",
+  "n_train_oof_rows": 13630,
+  "recursive_inference": "surface-specific predicted residuals, reset for every split; no observed APE at inference",
+  "temporal_context": "current plus 6 exact elapsed hours; missing/past split positions padded and explicitly masked",
+  "train_diagnostic_only": true,
+  "training": {
+    "best_epoch": 17,
+    "best_validation_loss": 0.19168282778893633,
+    "epochs_executed": 117,
+    "parameters": 18497,
+    "torch_cpu_threads": 2,
+    "train_seconds": 275.89784460002556
+  }
+}

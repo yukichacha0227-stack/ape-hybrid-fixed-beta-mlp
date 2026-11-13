@@ -1,0 +1,86 @@
+{
+  "design_columns": [
+    "AM",
+    "omega",
+    "AOD550",
+    "TOTANGSTR",
+    "TO3",
+    "TSR_label",
+    "TSR_x_AM",
+    "TSR_x_omega",
+    "TSR_x_AOD550",
+    "TSR_x_TOTANGSTR",
+    "TSR_x_TO3"
+  ],
+  "folds": [
+    {
+      "fit_end": "2011-10-19T23:30:00+00:00",
+      "fit_unique_hours": 1329,
+      "fold": 1,
+      "validation_start": "2011-10-21T00:30:00+00:00",
+      "validation_unique_hours": 1335
+    },
+    {
+      "fit_end": "2012-06-21T22:30:00+00:00",
+      "fit_unique_hours": 2664,
+      "fold": 2,
+      "validation_start": "2012-06-22T06:30:00+00:00",
+      "validation_unique_hours": 1335
+    },
+    {
+      "fit_end": "2013-01-15T01:30:00+00:00",
+      "fit_unique_hours": 3999,
+      "fold": 3,
+      "validation_start": "2013-01-17T03:30:00+00:00",
+      "validation_unique_hours": 1335
+    },
+    {
+      "fit_end": "2013-07-09T06:30:00+00:00",
+      "fit_unique_hours": 5334,
+      "fold": 4,
+      "validation_start": "2013-07-10T06:30:00+00:00",
+      "validation_unique_hours": 1335
+    },
+    {
+      "fit_end": "2014-02-20T05:30:00+00:00",
+      "fit_unique_hours": 6669,
+      "fold": 5,
+      "validation_start": "2014-02-21T04:30:00+00:00",
+      "validation_unique_hours": 1335
+    }
+  ],
+  "interpretation": {
+    "HSR": "intercept + common AM/omega/AOD550/TOTANGSTR/TO3 coefficients",
+    "TSR": "HSR equation + TSR_label intercept and TSR interaction coefficients"
+  },
+  "oof_available_surface_rows": 13350,
+  "oof_unavailable_initial_surface_rows": 2670,
+  "original_unit_coefficients": {
+    "AM": -0.004421190263438747,
+    "AOD550": 0.007487784304014513,
+    "TO3": 9.136761314885858e-05,
+    "TOTANGSTR": -0.023398372660374284,
+    "TSR_label": -0.015336404363437155,
+    "TSR_x_AM": -0.008033555787591481,
+    "TSR_x_AOD550": 0.0033175043157329417,
+    "TSR_x_TO3": 1.2696534586501106e-05,
+    "TSR_x_TOTANGSTR": 0.00318040669756488,
+    "TSR_x_omega": 0.000307692879596044,
+    "omega": 0.00070731673699515
+  },
+  "original_unit_intercept": 1.9034599230402685,
+  "ridge_alpha": 1.0,
+  "scaled_coefficients": {
+    "AM": -0.0026008549876383237,
+    "AOD550": 0.0015309887814587623,
+    "TO3": 0.004681863343003109,
+    "TOTANGSTR": -0.005955845906141246,
+    "TSR_label": -0.0076682021817185775,
+    "TSR_x_AM": -0.007808634432721954,
+    "TSR_x_AOD550": 0.0006432818955344545,
+    "TSR_x_TO3": 0.002256903941659483,
+    "TSR_x_TOTANGSTR": 0.0019074534246767195,
+    "TSR_x_omega": 0.003964479869082308,
+    "omega": 0.009161049712537797
+  }
+}

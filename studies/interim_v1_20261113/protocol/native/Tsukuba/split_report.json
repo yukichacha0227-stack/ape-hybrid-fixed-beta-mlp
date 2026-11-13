@@ -1,0 +1,47 @@
+{
+  "purge": {
+    "hours_at_each_main_boundary": 6,
+    "hours_between_validation_early_and_calibration": 6,
+    "reason": "maximum recursive residual lag is 6 hours"
+  },
+  "test": {
+    "end_utc": "2015-12-31T05:30:00+00:00",
+    "start_utc": "2015-05-03T04:30:00+00:00",
+    "surface_counts": {
+      "HSR": 1748,
+      "TSR": 1748
+    },
+    "surface_rows": 3496,
+    "unique_hours": 1748
+  },
+  "train_oof": {
+    "end_utc": "2014-08-08T01:30:00+00:00",
+    "start_utc": "2011-06-01T00:30:00+00:00",
+    "surface_counts": {
+      "HSR": 8182,
+      "TSR": 8182
+    },
+    "surface_rows": 16364,
+    "unique_hours": 8182
+  },
+  "validation_calibration": {
+    "end_utc": "2015-05-02T07:30:00+00:00",
+    "start_utc": "2014-12-26T03:30:00+00:00",
+    "surface_counts": {
+      "HSR": 873,
+      "TSR": 873
+    },
+    "surface_rows": 1746,
+    "unique_hours": 873
+  },
+  "validation_early": {
+    "end_utc": "2014-12-25T03:30:00+00:00",
+    "start_utc": "2014-08-09T00:30:00+00:00",
+    "surface_counts": {
+      "HSR": 868,
+      "TSR": 868
+    },
+    "surface_rows": 1736,
+    "unique_hours": 868
+  }
+}

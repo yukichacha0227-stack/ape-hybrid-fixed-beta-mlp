@@ -1,0 +1,26 @@
+name: Verify interim-presentation artifacts
+
+on:
+  push:
+    paths:
+      - 'studies/interim_v1_20261113/**'
+      - 'README.md'
+      - '.github/workflows/interim-release.yml'
+  pull_request:
+    paths:
+      - 'studies/interim_v1_20261113/**'
+      - 'README.md'
+      - '.github/workflows/interim-release.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  verify-saved-results:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.11'
+      - run: python studies/interim_v1_20261113/verify_release.py

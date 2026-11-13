@@ -1,2 +1,5 @@
 * text=auto eol=lf
+
+# Preserve archived source/CSV bytes, checkpoint fingerprints, and SHA256 manifests.
+studies/interim_v1_20261113/** -text
 *.png binary

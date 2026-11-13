@@ -1,0 +1,276 @@
+{
+  "status": "pass",
+  "models": [
+    {
+      "design": "common_hours",
+      "site": "Tsukuba",
+      "model": "NEDO_reference_MLP",
+      "strict_weights": true,
+      "config_fingerprint": true,
+      "finite_forward": true,
+      "epochs": 130,
+      "parameters": 29953
+    },
+    {
+      "design": "common_hours",
+      "site": "Tsukuba",
+      "model": "NEDO_reference_TCN",
+      "strict_weights": true,
+      "config_fingerprint": true,
+      "finite_forward": true,
+      "epochs": 151,
+      "parameters": 5169
+    },
+    {
+      "design": "common_hours",
+      "site": "Tsukuba",
+      "model": "NEDO_reference_SelfAttention",
+      "strict_weights": true,
+      "config_fingerprint": true,
+      "finite_forward": true,
+      "epochs": 300,
+      "parameters": 13009
+    },
+    {
+      "design": "common_hours",
+      "site": "Tsukuba",
+      "model": "PUBLIC_POWER_MLP",
+      "strict_weights": true,
+      "config_fingerprint": true,
+      "finite_forward": true,
+      "epochs": 130,
+      "parameters": 29953
+    },
+    {
+      "design": "common_hours",
+      "site": "Tsukuba",
+      "model": "PUBLIC_POWER_TCN",
+      "strict_weights": true,
+      "config_fingerprint": true,
+      "finite_forward": true,
+      "epochs": 148,
+      "parameters": 5169
+    },
+    {
+      "design": "common_hours",
+      "site": "Tsukuba",
+      "model": "PUBLIC_POWER_SelfAttention",
+      "strict_weights": true,
+      "config_fingerprint": true,
+      "finite_forward": true,
+      "epochs": 282,
+      "parameters": 13009
+    },
+    {
+      "design": "common_hours",
+      "site": "Tsukuba",
+      "model": "NEDO_reference_LSTM",
+      "strict_weights": true,
+      "config_fingerprint": true,
+      "finite_forward": true,
+      "epochs": 123,
+      "parameters": 18497
+    },
+    {
+      "design": "common_hours",
+      "site": "Naganuma",
+      "model": "NEDO_reference_MLP",
+      "strict_weights": true,
+      "config_fingerprint": true,
+      "finite_forward": true,
+      "epochs": 115,
+      "parameters": 29953
+    },
+    {
+      "design": "common_hours",
+      "site": "Naganuma",
+      "model": "NEDO_reference_TCN",
+      "strict_weights": true,
+      "config_fingerprint": true,
+      "finite_forward": true,
+      "epochs": 154,
+      "parameters": 5169
+    },
+    {
+      "design": "common_hours",
+      "site": "Naganuma",
+      "model": "NEDO_reference_SelfAttention",
+      "strict_weights": true,
+      "config_fingerprint": true,
+      "finite_forward": true,
+      "epochs": 147,
+      "parameters": 13009
+    },
+    {
+      "design": "common_hours",
+      "site": "Naganuma",
+      "model": "PUBLIC_POWER_MLP",
+      "strict_weights": true,
+      "config_fingerprint": true,
+      "finite_forward": true,
+      "epochs": 125,
+      "parameters": 29953
+    },
+    {
+      "design": "common_hours",
+      "site": "Naganuma",
+      "model": "PUBLIC_POWER_TCN",
+      "strict_weights": true,
+      "config_fingerprint": true,
+      "finite_forward": true,
+      "epochs": 138,
+      "parameters": 5169
+    },
+    {
+      "design": "common_hours",
+      "site": "Naganuma",
+      "model": "PUBLIC_POWER_SelfAttention",
+      "strict_weights": true,
+      "config_fingerprint": true,
+      "finite_forward": true,
+      "epochs": 170,
+      "parameters": 13009
+    },
+    {
+      "design": "common_hours",
+      "site": "Naganuma",
+      "model": "NEDO_reference_LSTM",
+      "strict_weights": true,
+      "config_fingerprint": true,
+      "finite_forward": true,
+      "epochs": 117,
+      "parameters": 18497
+    },
+    {
+      "design": "native",
+      "site": "Tsukuba",
+      "model": "NEDO_reference_MLP",
+      "strict_weights": true,
+      "config_fingerprint": true,
+      "finite_forward": true,
+      "epochs": 147,
+      "parameters": 29953
+    },
+    {
+      "design": "native",
+      "site": "Tsukuba",
+      "model": "NEDO_reference_TCN",
+      "strict_weights": true,
+      "config_fingerprint": true,
+      "finite_forward": true,
+      "epochs": 165,
+      "parameters": 5169
+    },
+    {
+      "design": "native",
+      "site": "Tsukuba",
+      "model": "NEDO_reference_SelfAttention",
+      "strict_weights": true,
+      "config_fingerprint": true,
+      "finite_forward": true,
+      "epochs": 285,
+      "parameters": 13009
+    },
+    {
+      "design": "native",
+      "site": "Tsukuba",
+      "model": "NEDO_reference_LSTM",
+      "strict_weights": true,
+      "config_fingerprint": true,
+      "finite_forward": true,
+      "epochs": 117,
+      "parameters": 18497
+    },
+    {
+      "design": "native",
+      "site": "Naganuma",
+      "model": "NEDO_reference_MLP",
+      "strict_weights": true,
+      "config_fingerprint": true,
+      "finite_forward": true,
+      "epochs": 116,
+      "parameters": 29953
+    },
+    {
+      "design": "native",
+      "site": "Naganuma",
+      "model": "NEDO_reference_TCN",
+      "strict_weights": true,
+      "config_fingerprint": true,
+      "finite_forward": true,
+      "epochs": 158,
+      "parameters": 5169
+    },
+    {
+      "design": "native",
+      "site": "Naganuma",
+      "model": "NEDO_reference_SelfAttention",
+      "strict_weights": true,
+      "config_fingerprint": true,
+      "finite_forward": true,
+      "epochs": 234,
+      "parameters": 13009
+    },
+    {
+      "design": "native",
+      "site": "Naganuma",
+      "model": "NEDO_reference_LSTM",
+      "strict_weights": true,
+      "config_fingerprint": true,
+      "finite_forward": true,
+      "epochs": 115,
+      "parameters": 18497
+    }
+  ],
+  "beta_algebra": [
+    {
+      "design": "native",
+      "site": "Tsukuba",
+      "surface": "HSR",
+      "max_error_eV": 4.440892098500626e-16
+    },
+    {
+      "design": "native",
+      "site": "Tsukuba",
+      "surface": "TSR",
+      "max_error_eV": 6.661338147750939e-16
+    },
+    {
+      "design": "native",
+      "site": "Naganuma",
+      "surface": "HSR",
+      "max_error_eV": 2.220446049250313e-16
+    },
+    {
+      "design": "native",
+      "site": "Naganuma",
+      "surface": "TSR",
+      "max_error_eV": 8.881784197001252e-16
+    },
+    {
+      "design": "common_hours",
+      "site": "Tsukuba",
+      "surface": "HSR",
+      "max_error_eV": 4.440892098500626e-16
+    },
+    {
+      "design": "common_hours",
+      "site": "Tsukuba",
+      "surface": "TSR",
+      "max_error_eV": 8.881784197001252e-16
+    },
+    {
+      "design": "common_hours",
+      "site": "Naganuma",
+      "surface": "HSR",
+      "max_error_eV": 6.661338147750939e-16
+    },
+    {
+      "design": "common_hours",
+      "site": "Naganuma",
+      "surface": "TSR",
+      "max_error_eV": 8.881784197001252e-16
+    }
+  ],
+  "note": "Synthetic forward/strict load only; no Test-observation input sequences are redistributed."
+}

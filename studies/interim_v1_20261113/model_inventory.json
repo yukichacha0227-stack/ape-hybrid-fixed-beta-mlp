@@ -1,0 +1,354 @@
+[
+  {
+    "design": "common_hours",
+    "site": "Tsukuba",
+    "model": "NEDO_reference_MLP",
+    "weights_available": true,
+    "available_files": [
+      "model.pt",
+      "config.json",
+      "architecture.json",
+      "model_report.json",
+      "training_history.csv",
+      "training_history.png",
+      "training_history.pdf"
+    ],
+    "source": "比較実験_つくば長沼_10特徴量_MLP_TCN_Attention_20261029/common_hours/Tsukuba/NEDO_reference_MLP"
+  },
+  {
+    "design": "common_hours",
+    "site": "Tsukuba",
+    "model": "NEDO_reference_TCN",
+    "weights_available": true,
+    "available_files": [
+      "model.pt",
+      "config.json",
+      "architecture.json",
+      "model_report.json",
+      "training_history.csv",
+      "training_history.png",
+      "training_history.pdf"
+    ],
+    "source": "比較実験_つくば長沼_10特徴量_MLP_TCN_Attention_20261029/common_hours/Tsukuba/NEDO_reference_TCN"
+  },
+  {
+    "design": "common_hours",
+    "site": "Tsukuba",
+    "model": "NEDO_reference_SelfAttention",
+    "weights_available": true,
+    "available_files": [
+      "model.pt",
+      "config.json",
+      "architecture.json",
+      "model_report.json",
+      "training_history.csv",
+      "training_history.png",
+      "training_history.pdf"
+    ],
+    "source": "比較実験_つくば長沼_10特徴量_MLP_TCN_Attention_20261029/common_hours/Tsukuba/NEDO_reference_SelfAttention"
+  },
+  {
+    "design": "common_hours",
+    "site": "Tsukuba",
+    "model": "PUBLIC_POWER_MLP",
+    "weights_available": true,
+    "available_files": [
+      "model.pt",
+      "config.json",
+      "architecture.json",
+      "model_report.json",
+      "training_history.csv",
+      "training_history.png",
+      "training_history.pdf"
+    ],
+    "source": "比較実験_つくば長沼_10特徴量_MLP_TCN_Attention_20261029/common_hours/Tsukuba/PUBLIC_POWER_MLP"
+  },
+  {
+    "design": "common_hours",
+    "site": "Tsukuba",
+    "model": "PUBLIC_POWER_TCN",
+    "weights_available": true,
+    "available_files": [
+      "model.pt",
+      "config.json",
+      "architecture.json",
+      "model_report.json",
+      "training_history.csv",
+      "training_history.png",
+      "training_history.pdf"
+    ],
+    "source": "比較実験_つくば長沼_10特徴量_MLP_TCN_Attention_20261029/common_hours/Tsukuba/PUBLIC_POWER_TCN"
+  },
+  {
+    "design": "common_hours",
+    "site": "Tsukuba",
+    "model": "PUBLIC_POWER_SelfAttention",
+    "weights_available": true,
+    "available_files": [
+      "model.pt",
+      "config.json",
+      "architecture.json",
+      "model_report.json",
+      "training_history.csv",
+      "training_history.png",
+      "training_history.pdf"
+    ],
+    "source": "比較実験_つくば長沼_10特徴量_MLP_TCN_Attention_20261029/common_hours/Tsukuba/PUBLIC_POWER_SelfAttention"
+  },
+  {
+    "design": "common_hours",
+    "site": "Tsukuba",
+    "model": "NEDO_reference_LSTM",
+    "weights_available": true,
+    "available_files": [
+      "model.pt",
+      "config.json",
+      "architecture.json",
+      "model_report.json",
+      "training_history.csv",
+      "training_history.png",
+      "training_history.pdf"
+    ],
+    "source": "比較実験_つくば長沼_10特徴量_MLP_TCN_Attention_20261029/NEDO_reference_6モデル_R2レーダー/Tsukuba/NEDO_reference_LSTM"
+  },
+  {
+    "design": "common_hours",
+    "site": "Naganuma",
+    "model": "NEDO_reference_MLP",
+    "weights_available": true,
+    "available_files": [
+      "model.pt",
+      "config.json",
+      "architecture.json",
+      "model_report.json",
+      "training_history.csv",
+      "training_history.png",
+      "training_history.pdf"
+    ],
+    "source": "比較実験_つくば長沼_10特徴量_MLP_TCN_Attention_20261029/common_hours/Naganuma/NEDO_reference_MLP"
+  },
+  {
+    "design": "common_hours",
+    "site": "Naganuma",
+    "model": "NEDO_reference_TCN",
+    "weights_available": true,
+    "available_files": [
+      "model.pt",
+      "config.json",
+      "architecture.json",
+      "model_report.json",
+      "training_history.csv",
+      "training_history.png",
+      "training_history.pdf"
+    ],
+    "source": "比較実験_つくば長沼_10特徴量_MLP_TCN_Attention_20261029/common_hours/Naganuma/NEDO_reference_TCN"
+  },
+  {
+    "design": "common_hours",
+    "site": "Naganuma",
+    "model": "NEDO_reference_SelfAttention",
+    "weights_available": true,
+    "available_files": [
+      "model.pt",
+      "config.json",
+      "architecture.json",
+      "model_report.json",
+      "training_history.csv",
+      "training_history.png",
+      "training_history.pdf"
+    ],
+    "source": "比較実験_つくば長沼_10特徴量_MLP_TCN_Attention_20261029/common_hours/Naganuma/NEDO_reference_SelfAttention"
+  },
+  {
+    "design": "common_hours",
+    "site": "Naganuma",
+    "model": "PUBLIC_POWER_MLP",
+    "weights_available": true,
+    "available_files": [
+      "model.pt",
+      "config.json",
+      "architecture.json",
+      "model_report.json",
+      "training_history.csv",
+      "training_history.png",
+      "training_history.pdf"
+    ],
+    "source": "比較実験_つくば長沼_10特徴量_MLP_TCN_Attention_20261029/common_hours/Naganuma/PUBLIC_POWER_MLP"
+  },
+  {
+    "design": "common_hours",
+    "site": "Naganuma",
+    "model": "PUBLIC_POWER_TCN",
+    "weights_available": true,
+    "available_files": [
+      "model.pt",
+      "config.json",
+      "architecture.json",
+      "model_report.json",
+      "training_history.csv",
+      "training_history.png",
+      "training_history.pdf"
+    ],
+    "source": "比較実験_つくば長沼_10特徴量_MLP_TCN_Attention_20261029/common_hours/Naganuma/PUBLIC_POWER_TCN"
+  },
+  {
+    "design": "common_hours",
+    "site": "Naganuma",
+    "model": "PUBLIC_POWER_SelfAttention",
+    "weights_available": true,
+    "available_files": [
+      "model.pt",
+      "config.json",
+      "architecture.json",
+      "model_report.json",
+      "training_history.csv",
+      "training_history.png",
+      "training_history.pdf"
+    ],
+    "source": "比較実験_つくば長沼_10特徴量_MLP_TCN_Attention_20261029/common_hours/Naganuma/PUBLIC_POWER_SelfAttention"
+  },
+  {
+    "design": "common_hours",
+    "site": "Naganuma",
+    "model": "NEDO_reference_LSTM",
+    "weights_available": true,
+    "available_files": [
+      "model.pt",
+      "config.json",
+      "architecture.json",
+      "model_report.json",
+      "training_history.csv",
+      "training_history.png",
+      "training_history.pdf"
+    ],
+    "source": "比較実験_つくば長沼_10特徴量_MLP_TCN_Attention_20261029/NEDO_reference_6モデル_R2レーダー/Naganuma/NEDO_reference_LSTM"
+  },
+  {
+    "design": "native",
+    "site": "Tsukuba",
+    "model": "NEDO_reference_MLP",
+    "weights_available": true,
+    "available_files": [
+      "model.pt",
+      "config.json",
+      "architecture.json",
+      "model_report.json",
+      "training_history.csv",
+      "training_history.png",
+      "training_history.pdf"
+    ],
+    "source": "比較実験_つくば長沼_10特徴量_MLP_TCN_Attention_20261029/native/Tsukuba/NEDO_reference_MLP"
+  },
+  {
+    "design": "native",
+    "site": "Tsukuba",
+    "model": "NEDO_reference_TCN",
+    "weights_available": true,
+    "available_files": [
+      "model.pt",
+      "config.json",
+      "architecture.json",
+      "model_report.json",
+      "training_history.csv",
+      "training_history.png",
+      "training_history.pdf"
+    ],
+    "source": "比較実験_つくば長沼_10特徴量_MLP_TCN_Attention_20261029/native/Tsukuba/NEDO_reference_TCN"
+  },
+  {
+    "design": "native",
+    "site": "Tsukuba",
+    "model": "NEDO_reference_SelfAttention",
+    "weights_available": true,
+    "available_files": [
+      "model.pt",
+      "config.json",
+      "architecture.json",
+      "model_report.json",
+      "training_history.csv",
+      "training_history.png",
+      "training_history.pdf"
+    ],
+    "source": "比較実験_つくば長沼_10特徴量_MLP_TCN_Attention_20261029/native/Tsukuba/NEDO_reference_SelfAttention"
+  },
+  {
+    "design": "native",
+    "site": "Tsukuba",
+    "model": "NEDO_reference_LSTM",
+    "weights_available": true,
+    "available_files": [
+      "model.pt",
+      "config.json",
+      "architecture.json",
+      "model_report.json",
+      "training_history.csv",
+      "training_history.png",
+      "training_history.pdf"
+    ],
+    "source": "比較実験_つくば長沼_10特徴量_MLP_TCN_Attention_20261029/NEDO_reference_6モデル_R2レーダー/従来分割版_つくばTimesNet未学習/Tsukuba/NEDO_reference_LSTM"
+  },
+  {
+    "design": "native",
+    "site": "Naganuma",
+    "model": "NEDO_reference_MLP",
+    "weights_available": true,
+    "available_files": [
+      "model.pt",
+      "config.json",
+      "architecture.json",
+      "model_report.json",
+      "training_history.csv",
+      "training_history.png",
+      "training_history.pdf"
+    ],
+    "source": "比較実験_つくば長沼_10特徴量_MLP_TCN_Attention_20261029/native/Naganuma/NEDO_reference_MLP"
+  },
+  {
+    "design": "native",
+    "site": "Naganuma",
+    "model": "NEDO_reference_TCN",
+    "weights_available": true,
+    "available_files": [
+      "model.pt",
+      "config.json",
+      "architecture.json",
+      "model_report.json",
+      "training_history.csv",
+      "training_history.png",
+      "training_history.pdf"
+    ],
+    "source": "比較実験_つくば長沼_10特徴量_MLP_TCN_Attention_20261029/native/Naganuma/NEDO_reference_TCN"
+  },
+  {
+    "design": "native",
+    "site": "Naganuma",
+    "model": "NEDO_reference_SelfAttention",
+    "weights_available": true,
+    "available_files": [
+      "model.pt",
+      "config.json",
+      "architecture.json",
+      "model_report.json",
+      "training_history.csv",
+      "training_history.png",
+      "training_history.pdf"
+    ],
+    "source": "比較実験_つくば長沼_10特徴量_MLP_TCN_Attention_20261029/native/Naganuma/NEDO_reference_SelfAttention"
+  },
+  {
+    "design": "native",
+    "site": "Naganuma",
+    "model": "NEDO_reference_LSTM",
+    "weights_available": true,
+    "available_files": [
+      "model.pt",
+      "config.json",
+      "architecture.json",
+      "model_report.json",
+      "training_history.csv",
+      "training_history.png",
+      "training_history.pdf"
+    ],
+    "source": "入力/長沼/APE予測_10特徴量_追加5モデル比較_20261028/NEDO_reference_LSTM"
+  }
+]

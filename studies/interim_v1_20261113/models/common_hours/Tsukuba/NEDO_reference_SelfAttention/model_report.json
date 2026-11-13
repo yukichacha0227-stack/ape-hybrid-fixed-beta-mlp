@@ -1,0 +1,30 @@
+{
+  "attention": "native feature-token 10x10 plus temporal current-query weights",
+  "calibration": {
+    "HSR": {
+      "clip_abs": 0.028686612873690467,
+      "intercept": 0.0018447561960289519,
+      "n": 662,
+      "slope": 0.9443725713054474
+    },
+    "TSR": {
+      "clip_abs": 0.04242978443103396,
+      "intercept": 0.0001925544540440087,
+      "n": 662,
+      "slope": 0.9732850426859005
+    }
+  },
+  "early_stopping": "empty residual lags, same reference F protocol",
+  "n_train_oof_rows": 10350,
+  "recursive_inference": "surface-specific predicted residuals, reset for every split; no observed APE at inference",
+  "temporal_context": "current plus 6 exact elapsed hours; missing/past split positions padded and explicitly masked",
+  "train_diagnostic_only": true,
+  "training": {
+    "best_epoch": 286,
+    "best_validation_loss": 0.19661216408893312,
+    "epochs_executed": 300,
+    "parameters": 13009,
+    "torch_cpu_threads": 2,
+    "train_seconds": 999.5915684999782
+  }
+}
