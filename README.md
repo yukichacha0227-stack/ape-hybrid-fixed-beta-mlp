@@ -17,18 +17,36 @@ APEは350–1050 nmの実測分光日射から算出した教師値を使い、�
 | PUBLIC_POWER | 既存のAM・MERRA-2大気変数 | NASA POWERの1時間値から構築 | 公開データを使う条件の評価 |
 | NEDO_reference | 同じ大気変数 | NEDOの現地観測を1時間集約 | 参照比較。公開入力の結果とは区別 |
 
-資料対応版の基礎予測は、面ラベルを $s_i=0$（HSR）、$s_i=1$（TSR）として、
+資料対応版の基礎予測は、面ラベルを $`s_i=0`$（HSR）、$`s_i=1`$（TSR）として、
 
-$$
-\widehat{APE}_{\beta,i}=\beta_0+\sum_{j=1}^5\beta_jx_{i,j}+s_i\left(\gamma_0+\sum_{j=1}^5\gamma_jx_{i,j}\right)
-$$
+```math
+\widehat{\mathrm{APE}}_{\beta,i}
+=
+\beta_0+\sum_{j=1}^{5}\beta_j x_{i,j}
++s_i\left(\gamma_0+\sum_{j=1}^{5}\gamma_j x_{i,j}\right)
+```
 
-$$
-\widehat{APE}_i=\widehat{APE}_{\beta,i}+\operatorname{clip}\left(a_{s_i}\widehat r_i+b_{s_i},-c_{s_i},c_{s_i}\right)
-$$
+```math
+\widehat{\mathrm{APE}}_i
+=
+\widehat{\mathrm{APE}}_{\beta,i}
++
+\mathrm{clip}\left(
+a_{s_i}\widehat{r}_i+b_{s_i},
+-c_{s_i},
+c_{s_i}
+\right)
+```
 
-$i$は観測行、$j$は大気変数番号、$x_{i,j}$はその値、$\beta$はHSRの基礎係数、$\gamma$はTSRとの差分係数、$\widehat r_i$は学習した残差です。$a_s,b_s,c_s$はCALだけから求める表面別校正係数です。両面をまとめ、交互作用を含む11列をTrainで標準化してRidge（α=1）を当てます。
+$`i`$ は観測行、$`j`$ は大気変数番号、$`x_{i,j}`$ はその値です。
+$`\beta`$ はHSRの基礎係数、$`\gamma`$ はTSRとの差分係数、
+$`\widehat{r}_i`$ はMLPが予測した残差です。
 
+$`a_s,b_s,c_s`$ はCALだけから求める表面別校正係数です。
+clipは、校正した残差補正量を下限 $`-c_s`$、上限 $`c_s`$ に制限する操作です。
+
+両面をまとめ、交互作用を含む11列をTrainで標準化して、
+Ridge回帰（α=1）を当てます。
 **現在の新規解析方針（2026-11-10以降）は、各地点内のHSR／TSRでβの切片・大気係数を共通にすることです。** ここに収録した旧結果は資料との対応を保つため表面別βのまま保存しています。地点間のβ共通化や、今回の公開に伴う再学習は行っていません。
 
 ## 資料掲載：モデル比較レーダー（スライド12）
